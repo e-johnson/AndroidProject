@@ -1,0 +1,7 @@
+﻿# Dictionary for mapping Czech words to their pronunciations.
+# Czech is implmeneted with a pronouncer, so this file serves as
+# a place to put exceptions to the pronunciation rules or to
+# override specific pronunciations.
+FaceFXPronDictVer=1 # Version 1 FaceFX pronunciation dictionary
+FaceFXPronDictAlphabet=IPA # Uses IPA. See docs for details.
+FaceFXProcessingLocale=cs_CZ

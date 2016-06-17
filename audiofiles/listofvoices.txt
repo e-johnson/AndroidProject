@@ -1,0 +1,7 @@
+voices: 
+Microsoft|zira|Desktop
+Festival_voice_cmu_us_clb_arctic_clunits
+Festival_voice_cmu_us_jmk_arctic_clunits
+Festival_voice_kal_diphone
+Festive_voice_ked_diphone
+Festive_voice_rab_diphone

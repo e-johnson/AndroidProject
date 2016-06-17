@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bml>
+    <speech end="0.2" id="sp1" ready="0.1" relax="0.2" start="0.0" stroke="0.1">
+        <text>
+            <sync id="T0" time="0.070"/>that
+            <sync id="T1" time="0.340"/>
+            <sync id="T2" time="0.340"/>sounds
+            <sync id="T3" time="0.690"/>
+            <sync id="T4" time="0.690"/>great
+            <sync id="T5" time="1.160"/>
+            <sync id="T6" time="1.160"/>i
+            <sync id="T7" time="1.260"/>
+            <sync id="T8" time="1.830"/>have
+            <sync id="T9" time="1.920"/>
+            <sync id="T10" time="1.920"/>to
+            <sync id="T11" time="2.900"/>
+            <sync id="T12" time="2.900"/>go
+            <sync id="T13" time="3.000"/>
+            <sync id="T14" time="3.000"/>now
+            <sync id="T15" time="3.100"/>
+            <sync id="T16" time="3.100"/>but
+            <sync id="T17" time="3.200"/>
+            <sync id="T18" time="3.200"/>let's
+            <sync id="T19" time="3.300"/>
+            <sync id="T20" time="3.300"/>talk
+            <sync id="T21" time="3.400"/>
+            <sync id="T22" time="3.400"/>soon
+            <sync id="T23" time="3.500"/>
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="talk_soon"/>
+        </description>
+    </speech>
+    <lips articulation="1.0" end="0.23" ready="0.1" relax="0.23" start="0.1" viseme="Th"/>
+    <lips articulation="1.0" end="0.33" ready="0.23" relax="0.33" start="0.23" viseme="Ah"/>
+    <lips articulation="1.0" end="0.39" ready="0.33" relax="0.39" start="0.33" viseme="D"/>
+    <lips articulation="1.0" end="0.52" ready="0.39" relax="0.52" start="0.39" viseme="Z"/>
+    <lips articulation="1.0" end="0.57" ready="0.52" relax="0.57" start="0.52" viseme="Ah"/>
+    <lips articulation="1.0" end="0.63" ready="0.57" relax="0.63" start="0.57" viseme="D"/>
+    <lips articulation="1.0" end="0.68" ready="0.63" relax="0.68" start="0.63" viseme="D"/>
+    <lips articulation="1.0" end="0.74" ready="0.68" relax="0.74" start="0.68" viseme="Z"/>
+    <lips articulation="1.0" end="0.81" ready="0.74" relax="0.81" start="0.74" viseme="Kg"/>
+    <lips articulation="1.0" end="0.94" ready="0.81" relax="0.94" start="0.81" viseme="R"/>
+    <lips articulation="1.0" end="1.16" ready="0.94" relax="1.16" start="0.94" viseme="Eh"/>
+    <lips articulation="1.0" end="1.88" ready="1.85" relax="1.88" start="1.85" viseme="Ih"/>
+    <lips articulation="1.0" end="1.91" ready="1.88" relax="1.91" start="1.88" viseme="Ah"/>
+    <lips articulation="1.0" end="2.83" ready="1.91" relax="2.83" start="1.91" viseme="F"/>
+    <lips articulation="1.0" end="2.9" ready="2.83" relax="2.9" start="2.83" viseme="D"/>
+    <curves>
+        <curve name="Aa" num_keys="0.0" owner="analysis"/>
+        <curve name="Eh" num_keys="4.0" owner="analysis">0.94 0.0 0.0 0.0 0.962 1.0 0.0 0.0 1.138 1.0 0.0 0.0 1.16 0.0 0.0 0.0</curve>
+        <curve name="BMP" num_keys="0.0" owner="analysis"/>
+        <curve name="D" num_keys="16.0" owner="analysis">0.33 0.0 0.0 0.0 0.336 1.0 0.0 0.0 0.384 1.0 0.0 0.0 0.39 0.0 0.0 0.0 0.57 0.0 0.0 0.0 0.576 1.0 0.0 0.0 0.624 1.0 0.0 0.0 0.63 0.0 0.0 0.0 0.63 0.0 0.0 0.0 0.635 1.0 0.0 0.0 0.675 1.0 0.0 0.0 0.68 0.0 0.0 0.0 2.83 0.0 0.0 0.0 2.837 1.0 0.0 0.0 2.893 1.0 0.0 0.0 2.9 0.0 0.0 0.0</curve>
+        <curve name="F" num_keys="4.0" owner="analysis">1.91 0.0 0.0 0.0 2.002 1.0 0.0 0.0 2.738 1.0 0.0 0.0 2.83 0.0 0.0 0.0</curve>
+        <curve name="Ah" num_keys="12.0" owner="analysis">0.23 0.0 0.0 0.0 0.24000000000000002 1.0 0.0 0.0 0.32 1.0 0.0 0.0 0.33 0.0 0.0 0.0 0.52 0.0 0.0 0.0 0.525 1.0 0.0 0.0 0.565 1.0 0.0 0.0 0.57 0.0 0.0 0.0 1.88 0.0 0.0 0.0 1.883 1.0 0.0 0.0 1.907 1.0 0.0 0.0 1.91 0.0 0.0 0.0</curve>
+        <curve name="Ow" num_keys="0.0" owner="analysis"/>
+        <curve name="Oy" num_keys="0.0" owner="analysis"/>
+        <curve name="L" num_keys="0.0" owner="analysis"/>
+        <curve name="Er" num_keys="0.0" owner="analysis"/>
+        <curve name="Ao" num_keys="0.0" owner="analysis"/>
+        <curve name="R" num_keys="4.0" owner="analysis">0.81 0.0 0.0 0.0 0.8230000000000001 1.0 0.0 0.0 0.9269999999999999 1.0 0.0 0.0 0.94 0.0 0.0 0.0</curve>
+        <curve name="Th" num_keys="4.0" owner="analysis">0.1 0.0 0.0 0.0 0.113 1.0 0.0 0.0 0.217 1.0 0.0 0.0 0.23 0.0 0.0 0.0</curve>
+        <curve name="Sh" num_keys="0.0" owner="analysis"/>
+        <curve name="W" num_keys="0.0" owner="analysis"/>
+        <curve name="Ay" num_keys="0.0" owner="analysis"/>
+        <curve name="Z" num_keys="8.0" owner="analysis">0.39 0.0 0.0 0.0 0.403 1.0 0.0 0.0 0.507 1.0 0.0 0.0 0.52 0.0 0.0 0.0 0.68 0.0 0.0 0.0 0.686 1.0 0.0 0.0 0.734 1.0 0.0 0.0 0.74 0.0 0.0 0.0</curve>
+        <curve name="Kg" num_keys="4.0" owner="analysis">0.74 0.0 0.0 0.0 0.747 1.0 0.0 0.0 0.803 1.0 0.0 0.0 0.81 0.0 0.0 0.0</curve>
+        <curve name="_" num_keys="0.0" owner="analysis"/>
+        <curve name="Ih" num_keys="4.0" owner="analysis">1.85 0.0 0.0 0.0 1.853 1.0 0.0 0.0 1.877 1.0 0.0 0.0 1.88 0.0 0.0 0.0</curve>
+    </curves>
+</bml>

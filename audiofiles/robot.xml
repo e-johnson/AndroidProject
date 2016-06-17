@@ -1,0 +1,1583 @@
+<actor name="ChrMale001" version="2131" path="C:\Users\Emmanuel\Desktop\svn_dcaps\tools\VisemeSchedulerFacefx\example.facefx" render_asset="CharMale001" default_analysis_actor="Default">
+    <face_graph>
+        <bones>
+            <bone name="spine5" weight="1">0 6.416729 1.020154 -1 0 0 0 1 1 1</bone>
+            <bone name="skullbase" weight="1">0 4.700325 -0.197063 -1 0 0 0 1 1 1</bone>
+            <bone name="face_top_parent" weight="1">-0.038968 3.909855 -1.942019 -1 0 0 0 1 1 1</bone>
+            <bone name="brow_parent_left" weight="1">2.82 4.053527 13.128222 -1 0 0 0 1 1 1</bone>
+            <bone name="brow01_left" weight="1">-1.780867 0.01312 3.152458 -1 0 0 0 1 1 1</bone>
+            <bone name="brow02_left" weight="1">-0.353631 0.05731 3.083537 -1 0 0 0 1 1 1</bone>
+            <bone name="brow03_left" weight="1">1.143108 -0.230706 2.475753 -1 0 0 0 1 1 1</bone>
+            <bone name="brow04_left" weight="1">2.499992 -0.453856 1.558251 -1 0 0 0 1 1 1</bone>
+            <bone name="ear_left" weight="1">8.490595 -0.805398 3.588699 -1 0 0 0 1 1 1</bone>
+            <bone name="ear_right" weight="1">-8.445516 -0.805262 3.588698 -1 0 0 0 1 1 1</bone>
+            <bone name="upper_nose_left" weight="1">1.404969 0.147518 15.518622 -1 0 0 0 1 1 1</bone>
+            <bone name="lower_nose_left" weight="1">0.972214 -2.310934 -0.145928 -1 0 0 0 1 1 1</bone>
+            <bone name="upper_nose_right" weight="1">-1.327032 0.147619 15.518608 -1 0 0 0 1 1 1</bone>
+            <bone name="lower_nose_right" weight="1">-1.016167 -2.310994 -0.145928 -1 0 0 0 1 1 1</bone>
+            <bone name="lower_eyelid_left" weight="1">3.840415 1.367479 14.372656 -1 0 0 0 1 1 1</bone>
+            <bone name="upper_eyelid_left" weight="1">3.863119 3.038484 14.459443 -1 0 0 0 1 1 1</bone>
+            <bone name="eyeball_left" weight="1">3.874356 2.512611 12.641517 -1 0 0 0 1 1 1</bone>
+            <bone name="brow_parent_right" weight="1">-2.82 4.053527 13.128222 -1 0 0 0 1 1 1</bone>
+            <bone name="brow01_right" weight="1">1.780867 0.013192 3.152458 -1 0 0 0 1 1 1</bone>
+            <bone name="brow02_right" weight="1">0.35 0.057457 3.083537 -1 0 0 0 1 1 1</bone>
+            <bone name="brow03_right" weight="1">-1.124584 -0.164773 2.479961 -1 0 0 0 1 1 1</bone>
+            <bone name="brow04_right" weight="1">-2.499985 -0.453704 1.558251 -1 0 0 0 1 1 1</bone>
+            <bone name="lower_eyelid_right" weight="1">-3.951302 1.367428 14.372656 -1 0 0 0 1 1 1</bone>
+            <bone name="upper_eyelid_right" weight="1">-3.901516 3.038342 14.459443 -1 0 0 0 1 1 1</bone>
+            <bone name="eyeball_right" weight="1">-3.805982 2.512611 12.641517 -1 0 0 0 1 1 1</bone>
+            <bone name="joint18" weight="1">0 18.348961 0.42672 -1 0 0 0 1 1 1</bone>
+            <bone name="face_bottom_parent" weight="1">0 0.145186 1.289574 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_top_left" weight="1">1.851791 -1.105928 12.342311 -1 0 0 0 1 1 1</bone>
+            <bone name="cheek_low_left" weight="1">6.621758 -0.739017 7.54182 -1 0 0 0 1 1 1</bone>
+            <bone name="Cheek_up_left" weight="1">4.773705 2.378586 11.263811 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_out_left" weight="1">3.163256 -1.497165 11.426455 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_top_mid" weight="1">-0.02 -0.834603 13.235845 -1 0 0 0 1 1 1</bone>
+            <bone name="Cheek_up_right" weight="1">-4.595117 2.378527 11.313811 -1 0 0 0 1 1 1</bone>
+            <bone name="cheek_low_right" weight="1">-6.396356 -0.739035 7.73182 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_top_right" weight="1">-1.851791 -1.106076 12.342322 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_out_right" weight="1">-3.272972 -1.497088 11.426469 -1 0 0 0 1 1 1</bone>
+            <bone name="Jaw" weight="1">-0.038968 -0.640006 2.582669 -0.999984 -0.005629 0 0 1 1 1</bone>
+            <bone name="Jaw_back" weight="1">0 -2.155443 0.523536 -1 0 0 0 1 1 1</bone>
+            <bone name="Jaw_front" weight="1">0 -3.087154 9.709191 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_bttm_mid" weight="1">-0.052559 3.345555 0.287703 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_bttm_left" weight="1">1.890319 3.612142 -0.338361 -1 0 0 0 1 1 1</bone>
+            <bone name="Lip_bttm_right" weight="1">-1.786452 3.596263 -0.368266 -1 0 0 0 1 1 1</bone>
+            <bone name="Tongue_back" weight="1">0 -1.432424 3.465057 -1 0 0 0 1 1 1</bone>
+            <bone name="Tongue_mid" weight="1">0.038968 -0.046923 2.334152 -0.99991 -0.013436 0 0 1 1 1</bone>
+            <bone name="Tongue_front" weight="1">-0.038968 -0.047452 2.651763 -0.995062 0.09926 0 0 1 1 1</bone>
+        </bones>
+        <nodes>
+            <node type="FxBonePoseNode" name="tBack" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Tongue_back">0 -1.421232 4.641665 -0.965431 -0.260659 0 0 1 1 1</bone>
+                    <bone name="Tongue_mid">0.038968 -0.046923 2.334152 -0.831875 0.554963 0 0 1 1 1</bone>
+                    <bone name="Tongue_front">-0.038968 -0.047452 2.651763 -0.980193 -0.198042 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="tRoof" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Tongue_mid">0.038968 -0.046923 2.334152 -0.989286 -0.145992 0 0 1 1 1</bone>
+                    <bone name="Tongue_front">-0.038968 -0.047452 2.651763 -0.964268 -0.264929 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="tTeeth" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Tongue_mid">0.038968 -0.046923 2.334152 -0.994877 -0.101096 0 0 1 1 1</bone>
+                    <bone name="Tongue_front">-0.038968 -0.047452 2.651763 -0.98179 -0.189971 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Pupils_Dilate" min="-0.5" max="1" input_op="sum">
+                <bones />
+            </node>
+            <node type="FxBonePoseNode" name="AU4-Brow_Lowerer" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="brow_parent_left">2.632999 3.591179 13.137826 -0.999546 0 0 0.030134 1 1 1</bone>
+                    <bone name="brow02_left">-0.357614 -0.00868 3.08491 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow03_left">1.132138 -0.412482 2.479536 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow_parent_right">-2.627007 3.591179 13.137826 -0.999769 0 0 -0.021505 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="AU29-Jaw_Sideways" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_mid">-0.050867 -0.834603 13.235845 -1 0 0 0 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.567048 -0.739035 7.73182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-2.031238 -1.106076 12.342322 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.706217 -1.557714 11.427728 -1 0 0 0 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.640006 2.582669 -0.998547 -0.005621 -0.053588 0.000302 1 1 1</bone>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.999987 0.005063 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Neutral" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.998265 0.058884 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Cheek_Up_Left" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.429216 14.371373 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.658543 11.257996 -1 0 0 0 1 1 1</bone>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.997557 0.069851 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Cheek_Up_Right" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_right">-3.951302 1.458922 14.370755 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.627145 11.308647 -1 0 0 0 1 1 1</bone>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.996757 0.080465 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxMaterialParameterNode" name="Red" min="0" max="1" input_op="sum">
+                <properties>
+                    <property name="Material" property_enum="3" value="/Slade-Maya.MESH/Face_and_MouthBack" />
+                    <property name="Pass" property_enum="3" value="add_color" />
+                    <property name="Parameter" property_enum="3" value="red" />
+                </properties>
+            </node>
+            <node type="FxMaterialParameterNode" name="Green" min="0" max="1" input_op="sum">
+                <properties>
+                    <property name="Material" property_enum="3" value="/Slade-Maya.MESH/Face_and_MouthBack" />
+                    <property name="Pass" property_enum="3" value="add_color" />
+                    <property name="Parameter" property_enum="3" value="green" />
+                </properties>
+            </node>
+            <node type="FxMaterialParameterNode" name="Blue" min="0" max="1" input_op="sum">
+                <properties>
+                    <property name="Material" property_enum="3" value="/Slade-Maya.MESH/Face_and_MouthBack" />
+                    <property name="Pass" property_enum="3" value="add_color" />
+                    <property name="Parameter" property_enum="3" value="blue" />
+                </properties>
+            </node>
+            <node type="FxCombinerNode" name="Blink" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="Blink_Left" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.858216 3.589743 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.85808 3.589742 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 2.342558 14.4739 -0.998905 0 0 0.046779 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Blink_Right" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.858216 3.589743 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.85808 3.589742 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 2.382973 14.473057 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Gaze Up and Down" min="-1" max="1" input_op="sum" />
+            <node type="FxCombinerNode" name="Eyebrow Raise" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="Eyebrow_Raise_Left" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="brow_parent_left">2.82 4.657112 13.115683 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_left">8.490595 -0.858216 3.589743 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.85808 3.589742 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Eyebrow_Raise_Right" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.858216 3.589743 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.85808 3.589742 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow_parent_right">-2.82 4.710952 13.114564 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Squint" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="Squint_Left" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.631177 14.367178 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 2.939249 14.461504 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 2.939107 14.461504 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Squint_Right" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 2.939249 14.461504 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.631126 14.367178 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 2.939107 14.461504 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Fixed Gaze Up and Down" min="-1" max="1" input_op="sum" />
+            <node type="FxCombinerNode" name="Head Pitch" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="Head_Pitch_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="spine5">0 6.416729 1.020154 -0.980141 0.198304 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Gaze Left and Right" min="-1" max="1" input_op="sum" />
+            <node type="FxCombinerNode" name="Fixed Gaze Left and Right" min="-1" max="1" input_op="sum" />
+            <node type="FxCombinerNode" name="Head Yaw" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="Head_Yaw_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="spine5">0 6.416729 1.020154 -0.931795 -0.039452 0.360057 -0.023668 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Head Roll" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="Head_Roll_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="spine5">0 6.416729 1.020154 -0.985405 -0.017252 -0.002655 0.169329 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Eye Pitch" min="-20" max="20" input_op="sum" />
+            <node type="FxCombinerNode" name="LeftEye Pitch" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="LeftEye_Pitch_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_left">3.874356 2.512611 12.641517 -0.965926 0.258819 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Eye Yaw" min="-20" max="20" input_op="sum" />
+            <node type="FxCombinerNode" name="LeftEye Yaw" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="LeftEye_Yaw_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_left">3.874356 2.512611 12.641517 -0.945519 0 0.325568 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="RightEye Pitch" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="RightEye_Pitch_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_right">-3.805982 2.512611 12.641517 -0.965926 0.258819 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="RightEye Yaw" min="-20" max="20" input_op="sum" />
+            <node type="FxBonePoseNode" name="RightEye_Yaw_Pos" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_right">-3.805982 2.512611 12.641517 -0.953717 0 0.300706 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Pitch_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="spine5">0 6.416729 1.020154 -0.923574 -0.383421 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Yaw_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="spine5">0 6.416729 1.020154 -0.931795 -0.039452 -0.360057 0.023668 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Head_Roll_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="spine5">0 6.416729 1.020154 -0.985407 -0.017149 0.003257 -0.169318 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="LeftEye_Pitch_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_left">3.874356 2.512611 12.641517 -0.976296 -0.21644 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="LeftEye_Yaw_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_left">3.874356 2.512611 12.641517 -0.953717 0 -0.300706 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="RightEye_Pitch_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_right">-3.805982 2.512611 12.641517 -0.953717 0 0.300706 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="RightEye_Yaw_Neg" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="eyeball_right">-3.805982 2.512611 12.641517 -0.92388 0 -0.382683 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Look_Left_Lids" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.212066 14.375884 -0.994813 0 0 -0.101717 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 3.240245 14.455252 -0.997367 0 0 0.072515 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.524564 14.369391 -0.998031 0 0 -0.062728 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 2.934597 14.461597 -0.99829 0 0 0.058464 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Look_Right_Lids" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.440972 14.371129 -0.998254 0 0 0.059067 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 2.891696 14.462492 -0.999025 0 0 -0.044155 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.121382 14.377767 -0.998411 0 0 0.05635 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 3.183712 14.456423 -0.998249 0 0 -0.059149 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Look_Up_Lids" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.646982 14.366849 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 3.308075 14.453842 -0.998724 0 0 -0.050493 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.646931 14.366849 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 3.307933 14.453842 -0.99926 0 0 0.038467 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="Look_Down_Lids" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_eyelid_left">3.840415 1.046848 14.379316 -0.998202 0 0 -0.059936 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 2.412686 14.472443 -0.999856 0 0 0.016941 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.046798 14.379316 -0.998469 0 0 0.055317 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 2.412544 14.472443 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU1-Inner_Brow_Raiser" min="-1" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU1-Inner_Brow_Raiser_Left" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="brow_parent_left">2.82 4.246791 13.124207 -0.999787 0 0 -0.020643 1 1 1</bone>
+                    <bone name="brow01_left">-1.786535 0.887051 3.1343 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow02_left">-0.359299 0.757353 3.068992 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow03_left">1.145928 -0.121357 2.473482 -0.987145 0 0 -0.159825 1 1 1</bone>
+                    <bone name="brow04_left">2.507432 -0.633938 1.561995 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_left">8.490595 -0.858216 3.589743 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.85808 3.589742 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="AU1-Inner_Brow_Raiser_Right" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.858216 3.589743 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.85808 3.589742 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.383366 14.372309 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow_parent_right">-2.82 4.246791 13.124207 -0.999879 0 0 0.015577 1 1 1</bone>
+                    <bone name="brow01_right">1.785145 0.887173 3.1343 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow02_right">0.354278 0.75755 3.068992 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow03_right">-1.130198 -0.167312 2.480015 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow04_right">-2.505599 -0.633852 1.561995 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.383315 14.372309 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU2-Outer_Brow_Raiser" min="-1" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU2-Outer_Brow_Raiser_Left" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="brow02_left">-0.353631 0.361258 3.077223 -0.993869 0 0 0.110565 1 1 1</bone>
+                    <bone name="brow03_left">1.143108 0.661917 2.45721 -0.996013 0 0 0.089203 1 1 1</bone>
+                    <bone name="brow04_left">2.499992 0.645736 1.535408 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_left">8.490595 -0.819091 3.588969 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.818955 3.588969 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.371598 14.372565 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.371547 14.372565 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="AU2-Outer_Brow_Raiser_Right" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.838654 3.589356 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.838518 3.589355 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.377482 14.372437 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow02_right">0.35 0.169535 3.081208 -0.996461 0 0 -0.08406 1 1 1</bone>
+                    <bone name="brow03_right">-1.124584 0.707858 2.461833 -1 0 0 0 1 1 1</bone>
+                    <bone name="brow04_right">-2.499985 0.5172 1.538082 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.377431 14.372437 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="ShCh" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_nose_left">0.972214 -2.310934 -0.056949 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_right">-1.016167 -2.310994 -0.056949 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.344077 14.373151 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.344026 14.373151 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_left">1.299505 -0.682771 12.814927 -0.996249 -0.086536 0 0 1 1 1</bone>
+                    <bone name="cheek_low_left">6.459207 -0.739017 7.54182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.063898 11.263811 -0.996714 -0.03575 0.072641 -0.002606 1 1 1</bone>
+                    <bone name="Lip_out_left">2.279572 -1.431624 11.533466 -0.999169 0 0.040772 0 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.263153 13.777217 -0.967293 -0.25366 0 0 0.820522 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.063839 11.313811 -0.995829 -0.035718 -0.083907 0.00301 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.33427 -0.739035 7.73182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.429571 -0.764908 12.816642 -0.996249 -0.086536 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-2.438874 -1.347557 11.92555 -0.991793 0 -0.127856 0 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.637487 2.703914 -0.999957 0.009264 0 0 1 1 1</bone>
+                    <bone name="Jaw_front">0 -3.0993 9.709411 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.052559 3.749739 0.978805 -0.998451 -0.055645 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.371154 3.986461 0.155129 -0.984019 -0.107604 0.140124 -0.022222 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.187745 4.000258 0.136588 -0.986181 -0.058799 -0.153863 -0.017755 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="W" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_nose_left">0.972214 -2.310934 -0.056949 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_right">-1.016167 -2.310994 -0.056949 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_left">1.299505 -0.887623 13.060672 -0.996249 -0.086536 0 0 1 1 1</bone>
+                    <bone name="cheek_low_left">6.459207 -0.739017 7.54182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.063898 11.263811 -0.996714 -0.03575 0.072641 -0.002606 1 1 1</bone>
+                    <bone name="Lip_out_left">2.279572 -1.497612 11.779211 -0.999169 0 0.040772 0 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.468004 14.022962 -0.967293 -0.25366 0 0 0.820522 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.063839 11.313811 -0.995829 -0.035718 -0.083907 0.00301 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.33427 -0.739035 7.73182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.429571 -0.969759 13.062387 -0.996249 -0.086536 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-2.438874 -1.413545 12.171294 -0.991793 0 -0.127856 0 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.637487 2.703914 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.052559 3.67607 1.225957 -0.998451 -0.055645 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.371154 3.912791 0.402281 -0.984019 -0.107604 0.140124 -0.022222 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.187745 3.926589 0.38374 -0.986181 -0.058799 -0.153863 -0.017755 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="PBM" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_nose_left">0.994654 -2.249111 -0.147212 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_right">-1.11179 -2.249171 -0.147212 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_left">1.851791 -1.122788 12.342109 -0.968548 0.208043 -0.051303 -0.126492 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.809776 2.436617 11.263811 -0.999692 0 0 0.024814 1 1 1</bone>
+                    <bone name="Lip_out_left">2.863079 -1.390814 11.424245 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -1.035186 13.183876 -0.964766 0.259471 0.041435 -0.01361 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.631898 2.436558 11.313811 -0.999207 0 0 -0.039823 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -1.132958 12.342881 -0.980143 0.170483 0.057557 0.083324 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.272972 -1.293996 11.42225 -1 0 0 0 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.640006 2.582669 -1 0 0 0 1 1 1</bone>
+                    <bone name="Jaw_front">0 -2.862145 9.704517 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.052559 4.121385 0.565387 -0.914232 -0.405179 -0.001449 0.002937 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.590142 3.959343 -0.345574 -0.969375 -0.244418 0.023893 0.001287 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.786452 4.035988 -0.546888 -0.960259 -0.279111 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU10-Upper_Lip_Raiser-Key" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU10-Upper_Lip_Raiser" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_left">1.851791 -0.570805 12.331195 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.768164 11.258647 -0.999628 0 0 0.027264 1 1 1</bone>
+                    <bone name="Lip_out_left">3.163256 -0.962043 11.415339 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.299481 13.224728 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.768105 11.308647 -0.999046 0 0 -0.043662 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -0.570953 12.331206 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.272972 -0.961966 11.415352 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU15-Lip_Corner_Depressor" min="-1" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU15-Lip_Corner_Depressor_Left" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_nose_left">0.972214 -2.425407 -0.145928 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_left">1.851791 -1.213662 12.344549 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.23063 11.263811 -0.999519 0 0 -0.031001 1 1 1</bone>
+                    <bone name="Lip_out_left">3.163256 -2.499632 11.447279 -0.997983 0 0 -0.063478 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.890319 3.418289 -0.338876 -0.992757 0 0 -0.12014 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="AU15-Lip_Corner_Depressor_Right" min="-1" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_nose_right">-1.016167 -2.39614 -0.145928 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.116563 11.313811 -0.999112 0 0 0.042138 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -1.267259 12.345671 -0.998435 0 0 0.055924 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.272972 -2.190187 11.440866 -0.997199 0 0 0.074797 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.786452 3.487597 -0.367818 -0.9918 0 0 0.127796 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="FV" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_left">1.632849 -1.096148 12.519469 -0.995618 0 0.093518 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.378586 11.263811 -0.999438 0 0 0.033508 1 1 1</bone>
+                    <bone name="Lip_out_left">2.805612 -1.811296 10.828197 -0.995849 -0.002786 0.084906 0.032672 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.833061 13.310061 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.378527 11.313811 -0.999522 0 0 -0.0309 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.596943 -1.096296 12.519481 -0.996466 -0.002338 -0.083967 0.000324 1 1 1</bone>
+                    <bone name="Lip_out_right">-2.83504 -1.58739 11.016778 -0.998794 0 -0.04909 0 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -1.501742 1.488031 -0.998629 -0.052347 0 0 1 1 1</bone>
+                    <bone name="Jaw_front">0 -3.125704 10.167196 -0.999658 -0.026167 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.018948 3.814739 0.208055 -0.970339 -0.2417 0.004255 0.002167 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.696228 3.844596 -0.466487 -0.994807 -0.02657 0.045012 0.087328 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.451396 3.828718 -0.496393 -0.976483 -0.209656 0.050255 -0.000676 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU16-Lower_Lip_Depressor-Key" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU16-Lower_Lip_Depressor" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_bttm_mid">-0.052559 2.665629 0.294171 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.890319 3.007168 -0.332606 -0.995603 -0.007633 0.030012 0.088403 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.786452 2.96554 -0.362267 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="wide" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="lower_nose_left">1.13996 -2.173204 -0.148787 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_right">-1.186981 -2.208866 -0.148048 -1 0 0 0 1 1 1</bone>
+                    <bone name="upper_eyelid_left">3.863119 3.038484 14.459443 -0.999483 0 0 -0.032166 1 1 1</bone>
+                    <bone name="upper_eyelid_right">-3.901516 3.038342 14.459443 -0.999395 0 0 0.034766 1 1 1</bone>
+                    <bone name="Lip_top_left">1.851791 -0.616666 12.332156 -1 0 0 0 1 1 1</bone>
+                    <bone name="cheek_low_left">6.621758 -0.609428 7.54182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 2.579577 11.263811 -0.997089 0 0 0.076243 1 1 1</bone>
+                    <bone name="Lip_out_left">3.711296 -0.605415 11.267698 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.55319 13.230003 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 2.579519 11.313811 -0.998421 0 0 -0.056173 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.396356 -0.609446 7.73182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -0.616815 12.332168 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.502064 -0.815548 11.272014 -1 0 0 0 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.640006 2.582669 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.890319 3.850555 -0.343236 -0.993992 0 0 0.109453 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.786452 3.833898 -0.373142 -0.995057 0 0 -0.099308 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU20-Lip_Stretcher-Key" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU20-Lip_Stretcher" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_left">1.95435 -1.105928 12.342311 -1 0 0 0 1 1 1</bone>
+                    <bone name="cheek_low_left">6.681434 -0.739017 7.54182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.815119 2.378586 11.263811 -0.999239 0 0 0.039006 1 1 1</bone>
+                    <bone name="Lip_out_left">3.483817 -1.511508 10.736005 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.639478 2.378527 11.313811 -0.997687 0 0 -0.067968 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.549584 -0.739035 7.73182 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-2.007135 -1.106076 12.342322 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.525206 -1.511431 10.736019 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.993594 3.609483 -0.617885 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.890524 3.593605 -0.64779 -1 0 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxBonePoseNode" name="open" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.860212 3.589837 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.860076 3.589837 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_left">0.972214 -2.34698 -0.145179 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_right">-1.016167 -2.347039 -0.145179 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.359615 14.372819 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.359564 14.372819 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_left">1.764639 -1.366988 12.299787 -0.985066 0.047657 -0.021029 -0.164106 1 1 1</bone>
+                    <bone name="cheek_low_left">6.387955 -1.254657 7.552532 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 1.728726 11.264853 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_left">2.663426 -2.668925 11.022708 -0.97958 -0.006097 -0.110889 -0.167597 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.893316 13.237064 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 1.728667 11.314853 -1 0 0 0 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.078364 -1.254675 7.742532 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -1.522354 12.222763 -0.993757 0 0 0.111565 1 1 1</bone>
+                    <bone name="Lip_out_right">-2.830496 -2.5137 11.019499 -0.982421 0.16888 -0.079167 0.007849 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.640006 2.582669 -0.996917 0.078459 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.052559 3.118271 0.362873 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.55882 3.583975 -0.8142 -0.988741 -0.003186 0.053681 0.139643 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.550301 3.568096 -0.844105 -0.982557 -0.001177 -0.081905 -0.166948 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU23-Lip_Tightener-Key" min="-1" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU23-Lip_Tightener" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_left">1.673998 -1.305916 12.346465 -0.982749 0.147554 0.016556 -0.110265 1 1 1</bone>
+                    <bone name="Lip_out_left">2.850254 -1.697257 11.430612 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.834603 13.235845 -0.995854 0.090966 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.732031 -1.106076 12.342322 -0.985868 0.148022 -0.011649 0.077583 1 1 1</bone>
+                    <bone name="Lip_out_right">-2.906746 -1.631361 11.429258 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.052559 4.162212 0.304481 -0.913976 -0.405768 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.660716 3.949498 -0.515994 -0.929734 -0.328481 0.078724 0.146618 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.605348 3.903177 -0.701019 -0.946107 -0.271459 -0.117661 -0.131708 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU26-Jaw_Drop-Key" min="-1" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU26-Jaw_Drop" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="ear_left">8.490595 -0.860212 3.589837 -1 0 0 0 1 1 1</bone>
+                    <bone name="ear_right">-8.445516 -0.860076 3.589837 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_left">0.972214 -2.34698 -0.145179 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_nose_right">-1.016167 -2.347039 -0.145179 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_left">3.840415 1.359615 14.372819 -1 0 0 0 1 1 1</bone>
+                    <bone name="lower_eyelid_right">-3.951302 1.359564 14.372819 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_left">1.764639 -1.366988 12.299787 -0.985066 0.047657 -0.021029 -0.164106 1 1 1</bone>
+                    <bone name="cheek_low_left">6.387955 -1.254657 7.552532 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_left">4.773705 1.728726 11.264853 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_left">2.663426 -2.668925 11.022708 -0.97958 -0.006097 -0.110889 -0.167597 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.893316 13.237064 -1 0 0 0 1 1 1</bone>
+                    <bone name="Cheek_up_right">-4.595117 1.728667 11.314853 -1 0 0 0 1 1 1</bone>
+                    <bone name="cheek_low_right">-6.078364 -1.254675 7.742532 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -1.522354 12.222763 -0.993757 0 0 0.111565 1 1 1</bone>
+                    <bone name="Lip_out_right">-2.830496 -2.5137 11.019499 -0.982421 0.16888 -0.079167 0.007849 1 1 1</bone>
+                    <bone name="Jaw">-0.038968 -0.640006 2.582669 -0.996917 0.078459 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_mid">-0.052559 3.118271 0.362873 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_bttm_left">1.55882 3.583975 -0.8142 -0.988741 -0.003186 0.053681 0.139643 1 1 1</bone>
+                    <bone name="Lip_bttm_right">-1.550301 3.568096 -0.844105 -0.982557 -0.001177 -0.081905 -0.166948 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="AU29-Jaw_Thrust-Key" min="-1" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="AU29-Jaw_Thrust" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Jaw">-0.038968 -0.629184 3.103579 -0.999956 -0.009347 0 0 1 1 1</bone>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.999999 0.001323 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Snarl_Left-Key" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="Snarl_Left" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_left">1.851791 -0.255398 12.324642 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_left">3.163256 -1.184705 11.419964 -0.997475 0 0 -0.071023 1 1 1</bone>
+                    <bone name="Lip_top_mid">-0.02 -0.805342 13.235236 -0.99917 0 0 0.040741 1 1 1</bone>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.995907 0.090382 0 0 1 1 1</bone>
+                </bones>
+            </node>
+            <node type="FxCombinerNode" name="Snarl_Right-Key" min="0" max="1" input_op="sum" />
+            <node type="FxBonePoseNode" name="Snarl_Right" min="0" max="1" input_op="sum">
+                <bones>
+                    <bone name="Lip_top_mid">-0.02 -0.746757 13.234019 -0.999386 0 0 -0.035036 1 1 1</bone>
+                    <bone name="Lip_top_right">-1.851791 -0.470627 12.329122 -1 0 0 0 1 1 1</bone>
+                    <bone name="Lip_out_right">-3.272972 -1.40316 11.424518 -0.994441 0 0 0.105297 1 1 1</bone>
+                    <bone name="Tongue_back">0 -1.432424 3.465057 -0.995062 0.09926 0 0 1 1 1</bone>
+                </bones>
+            </node>
+        </nodes>
+        <links>
+            <link function="linear" from="Blink" to="Blink_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Blink" to="Blink_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Gaze Up and Down" to="Eyebrow Raise">
+                <parameters num_params="2">0.750000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eyebrow Raise" to="Eyebrow_Raise_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eyebrow Raise" to="Eyebrow_Raise_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Squint" to="Squint_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Squint" to="Squint_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Gaze Up and Down" to="Head Pitch">
+                <parameters num_params="2">-20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Fixed Gaze Up and Down" to="Head Pitch">
+                <parameters num_params="2">-20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Head Pitch" to="Head_Pitch_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Gaze Left and Right" to="Head Yaw">
+                <parameters num_params="2">20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Fixed Gaze Left and Right" to="Head Yaw">
+                <parameters num_params="2">20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Head Yaw" to="Head_Yaw_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Head Roll" to="Head_Roll_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Gaze Up and Down" to="Eye Pitch">
+                <parameters num_params="2">-20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Fixed Gaze Up and Down" to="Eye Pitch">
+                <parameters num_params="2">20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Pitch" to="LeftEye Pitch">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="LeftEye Pitch" to="LeftEye_Pitch_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Gaze Left and Right" to="Eye Yaw">
+                <parameters num_params="2">20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Fixed Gaze Left and Right" to="Eye Yaw">
+                <parameters num_params="2">-20.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Yaw" to="LeftEye Yaw">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="LeftEye Yaw" to="LeftEye_Yaw_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Pitch" to="RightEye Pitch">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="RightEye Pitch" to="RightEye_Pitch_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Yaw" to="RightEye Yaw">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="RightEye Yaw" to="RightEye_Yaw_Pos">
+                <parameters num_params="2">0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Head Pitch" to="Head_Pitch_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Head Yaw" to="Head_Yaw_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Head Roll" to="Head_Roll_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="LeftEye Pitch" to="LeftEye_Pitch_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="LeftEye Yaw" to="LeftEye_Yaw_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="RightEye Pitch" to="RightEye_Pitch_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="RightEye Yaw" to="RightEye_Yaw_Neg">
+                <parameters num_params="2">-0.033333 0.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Yaw" to="Look_Left_Lids">
+                <parameters num_params="2">0.030000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="Blink" to="Look_Left_Lids">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Yaw" to="Look_Right_Lids">
+                <parameters num_params="2">-0.030000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="Blink" to="Look_Right_Lids">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Pitch" to="Look_Up_Lids">
+                <parameters num_params="2">-0.030000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="Blink" to="Look_Up_Lids">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="Eye Pitch" to="Look_Down_Lids">
+                <parameters num_params="2">0.030000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="Blink" to="Look_Down_Lids">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="AU1-Inner_Brow_Raiser" to="AU1-Inner_Brow_Raiser_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="AU1-Inner_Brow_Raiser" to="AU1-Inner_Brow_Raiser_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="AU2-Outer_Brow_Raiser" to="AU2-Outer_Brow_Raiser_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="AU2-Outer_Brow_Raiser" to="AU2-Outer_Brow_Raiser_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="ShCh" to="AU10-Upper_Lip_Raiser">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="W" to="AU10-Upper_Lip_Raiser">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="AU10-Upper_Lip_Raiser">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="AU10-Upper_Lip_Raiser-Key" to="AU10-Upper_Lip_Raiser">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="AU15-Lip_Corner_Depressor" to="AU15-Lip_Corner_Depressor_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="linear" from="AU15-Lip_Corner_Depressor" to="AU15-Lip_Corner_Depressor_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="ShCh" to="AU16-Lower_Lip_Depressor">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="W" to="AU16-Lower_Lip_Depressor">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="AU16-Lower_Lip_Depressor">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="FV" to="AU16-Lower_Lip_Depressor">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="AU16-Lower_Lip_Depressor-Key" to="AU16-Lower_Lip_Depressor">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="wide" to="AU20-Lip_Stretcher">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="AU20-Lip_Stretcher-Key" to="AU20-Lip_Stretcher">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="open" to="AU23-Lip_Tightener">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="ShCh" to="AU23-Lip_Tightener">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="W" to="AU23-Lip_Tightener">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="AU23-Lip_Tightener">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="AU23-Lip_Tightener-Key" to="AU23-Lip_Tightener">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="open" to="AU26-Jaw_Drop">
+                <parameters num_params="1">1.500000</parameters>
+            </link>
+            <link function="corrective" from="ShCh" to="AU26-Jaw_Drop">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="W" to="AU26-Jaw_Drop">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="AU26-Jaw_Drop">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="FV" to="AU26-Jaw_Drop">
+                <parameters num_params="1">1.500000</parameters>
+            </link>
+            <link function="linear" from="AU26-Jaw_Drop-Key" to="AU26-Jaw_Drop">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="AU29-Jaw_Thrust">
+                <parameters num_params="1">0.750000</parameters>
+            </link>
+            <link function="corrective" from="FV" to="AU29-Jaw_Thrust">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="AU29-Jaw_Thrust-Key" to="AU29-Jaw_Thrust">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="W" to="Snarl_Left">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="Snarl_Left">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="Snarl_Left-Key" to="Snarl_Left">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+            <link function="corrective" from="W" to="Snarl_Right">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="corrective" from="PBM" to="Snarl_Right">
+                <parameters num_params="1">1.000000</parameters>
+            </link>
+            <link function="linear" from="Snarl_Right-Key" to="Snarl_Right">
+                <parameters num_params="2">1.000000 0.000000</parameters>
+            </link>
+        </links>
+    </face_graph>
+    <mapping>
+        <entry phoneme="T" target="open" amount="0.4" />
+        <entry phoneme="D" target="open" amount="0.4" />
+        <entry phoneme="K" target="open" amount="0.25" />
+        <entry phoneme="G" target="open" amount="0.25" />
+        <entry phoneme="N" target="open" amount="0.4" />
+        <entry phoneme="NG" target="open" amount="0.4" />
+        <entry phoneme="RA" target="open" amount="0.4" />
+        <entry phoneme="RU" target="open" amount="0.25" />
+        <entry phoneme="FLAP" target="open" amount="0.3" />
+        <entry phoneme="PH" target="open" amount="0.1" />
+        <entry phoneme="TH" target="open" amount="0.45" />
+        <entry phoneme="DH" target="open" amount="0.45" />
+        <entry phoneme="S" target="open" amount="0.15" />
+        <entry phoneme="Z" target="open" amount="0.15" />
+        <entry phoneme="CX" target="open" amount="0.25" />
+        <entry phoneme="X" target="open" amount="0.25" />
+        <entry phoneme="GH" target="open" amount="0.25" />
+        <entry phoneme="HH" target="open" amount="0.3" />
+        <entry phoneme="R" target="open" amount="0.1" />
+        <entry phoneme="L" target="open" amount="0.4" />
+        <entry phoneme="H" target="open" amount="0.2" />
+        <entry phoneme="TS" target="open" amount="0.4" />
+        <entry phoneme="IY" target="open" amount="0.2" />
+        <entry phoneme="E" target="open" amount="0.35" />
+        <entry phoneme="EN" target="open" amount="0.35" />
+        <entry phoneme="EH" target="open" amount="0.5" />
+        <entry phoneme="A" target="open" amount="0.55" />
+        <entry phoneme="AA" target="open" amount="0.55" />
+        <entry phoneme="AAN" target="open" amount="0.55" />
+        <entry phoneme="AO" target="open" amount="0.4" />
+        <entry phoneme="AON" target="open" amount="0.4" />
+        <entry phoneme="O" target="open" amount="0.4" />
+        <entry phoneme="ON" target="open" amount="0.4" />
+        <entry phoneme="UW" target="open" amount="0.4" />
+        <entry phoneme="EU" target="open" amount="0.4" />
+        <entry phoneme="OE" target="open" amount="0.4" />
+        <entry phoneme="OEN" target="open" amount="0.4" />
+        <entry phoneme="AH" target="open" amount="0.5" />
+        <entry phoneme="IH" target="open" amount="0.5" />
+        <entry phoneme="UU" target="open" amount="0.4" />
+        <entry phoneme="UH" target="open" amount="0.4" />
+        <entry phoneme="AX" target="open" amount="0.5" />
+        <entry phoneme="UX" target="open" amount="0.5" />
+        <entry phoneme="AE" target="open" amount="0.5" />
+        <entry phoneme="ER" target="open" amount="0.4" />
+        <entry phoneme="AXR" target="open" amount="0.4" />
+        <entry phoneme="EXR" target="open" amount="0.4" />
+        <entry phoneme="EY" target="open" amount="0.5" />
+        <entry phoneme="AW" target="open" amount="0.5" />
+        <entry phoneme="AY" target="open" amount="0.5" />
+        <entry phoneme="OY" target="open" amount="0.4" />
+        <entry phoneme="OW" target="open" amount="0.4" />
+        <entry phoneme="R" target="W" amount="0.7" />
+        <entry phoneme="Y" target="W" amount="0.5" />
+        <entry phoneme="W" target="W" amount="0.85" />
+        <entry phoneme="AO" target="W" amount="0.55" />
+        <entry phoneme="AON" target="W" amount="0.55" />
+        <entry phoneme="O" target="W" amount="0.55" />
+        <entry phoneme="ON" target="W" amount="0.55" />
+        <entry phoneme="UW" target="W" amount="0.55" />
+        <entry phoneme="UY" target="W" amount="0.85" />
+        <entry phoneme="EU" target="W" amount="0.55" />
+        <entry phoneme="OE" target="W" amount="0.55" />
+        <entry phoneme="OEN" target="W" amount="0.55" />
+        <entry phoneme="UU" target="W" amount="0.55" />
+        <entry phoneme="UH" target="W" amount="0.55" />
+        <entry phoneme="OY" target="W" amount="0.55" />
+        <entry phoneme="OW" target="W" amount="0.55" />
+        <entry phoneme="SH" target="ShCh" amount="0.85" />
+        <entry phoneme="ZH" target="ShCh" amount="0.85" />
+        <entry phoneme="Y" target="ShCh" amount="0.3" />
+        <entry phoneme="CH" target="ShCh" amount="0.85" />
+        <entry phoneme="JH" target="ShCh" amount="0.85" />
+        <entry phoneme="ER" target="ShCh" amount="0.5" />
+        <entry phoneme="AXR" target="ShCh" amount="0.5" />
+        <entry phoneme="EXR" target="ShCh" amount="0.5" />
+        <entry phoneme="P" target="PBM" amount="0.9" />
+        <entry phoneme="B" target="PBM" amount="0.9" />
+        <entry phoneme="M" target="PBM" amount="0.9" />
+        <entry phoneme="PH" target="FV" amount="0.4" />
+        <entry phoneme="F" target="FV" amount="0.75" />
+        <entry phoneme="V" target="FV" amount="0.75" />
+        <entry phoneme="S" target="wide" amount="0.5" />
+        <entry phoneme="Z" target="wide" amount="0.5" />
+        <entry phoneme="IY" target="wide" amount="0.8" />
+        <entry phoneme="E" target="wide" amount="0.25" />
+        <entry phoneme="EN" target="wide" amount="0.25" />
+        <entry phoneme="EH" target="wide" amount="0.6" />
+        <entry phoneme="AH" target="wide" amount="0.6" />
+        <entry phoneme="IH" target="wide" amount="0.6" />
+        <entry phoneme="AX" target="wide" amount="0.6" />
+        <entry phoneme="UX" target="wide" amount="0.6" />
+        <entry phoneme="AE" target="wide" amount="0.6" />
+        <entry phoneme="EY" target="wide" amount="0.6" />
+        <entry phoneme="AW" target="wide" amount="0.6" />
+        <entry phoneme="AY" target="wide" amount="0.6" />
+        <entry phoneme="K" target="tBack" amount="0.8" />
+        <entry phoneme="G" target="tBack" amount="0.8" />
+        <entry phoneme="RU" target="tBack" amount="0.8" />
+        <entry phoneme="CX" target="tBack" amount="0.8" />
+        <entry phoneme="X" target="tBack" amount="0.8" />
+        <entry phoneme="GH" target="tBack" amount="0.8" />
+        <entry phoneme="EH" target="tBack" amount="0.4" />
+        <entry phoneme="AH" target="tBack" amount="0.4" />
+        <entry phoneme="IH" target="tBack" amount="0.4" />
+        <entry phoneme="AX" target="tBack" amount="0.4" />
+        <entry phoneme="UX" target="tBack" amount="0.4" />
+        <entry phoneme="AE" target="tBack" amount="0.4" />
+        <entry phoneme="EY" target="tBack" amount="0.4" />
+        <entry phoneme="AW" target="tBack" amount="0.4" />
+        <entry phoneme="AY" target="tBack" amount="0.4" />
+        <entry phoneme="T" target="tRoof" amount="0.8" />
+        <entry phoneme="D" target="tRoof" amount="0.8" />
+        <entry phoneme="N" target="tRoof" amount="0.8" />
+        <entry phoneme="NG" target="tRoof" amount="0.8" />
+        <entry phoneme="RA" target="tRoof" amount="0.5" />
+        <entry phoneme="FLAP" target="tRoof" amount="0.6" />
+        <entry phoneme="S" target="tRoof" amount="0.4" />
+        <entry phoneme="Z" target="tRoof" amount="0.4" />
+        <entry phoneme="SH" target="tRoof" amount="0.4" />
+        <entry phoneme="ZH" target="tRoof" amount="0.4" />
+        <entry phoneme="Y" target="tRoof" amount="0.4" />
+        <entry phoneme="L" target="tRoof" amount="0.8" />
+        <entry phoneme="TS" target="tRoof" amount="0.8" />
+        <entry phoneme="CH" target="tRoof" amount="0.4" />
+        <entry phoneme="JH" target="tRoof" amount="0.4" />
+        <entry phoneme="IY" target="tRoof" amount="0.2" />
+        <entry phoneme="E" target="tRoof" amount="0.2" />
+        <entry phoneme="EN" target="tRoof" amount="0.2" />
+        <entry phoneme="ER" target="tRoof" amount="0.5" />
+        <entry phoneme="AXR" target="tRoof" amount="0.5" />
+        <entry phoneme="EXR" target="tRoof" amount="0.5" />
+        <entry phoneme="TH" target="tTeeth" amount="0.9" />
+        <entry phoneme="DH" target="tTeeth" amount="0.9" />
+    </mapping>
+    <animation_groups>
+        <animation_group name="Default" />
+        <animation_group name="audiofiles">
+            <animation name="good" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\good.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\good.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="SIL" start="0" end="0.1" />
+                    <phoneme phoneme="DH" start="0.1" end="0.12" />
+                    <phoneme phoneme="AH" start="0.12" end="0.15" />
+                    <phoneme phoneme="T" start="0.15" end="0.21" />
+                    <phoneme phoneme="S" start="0.21" end="0.25" />
+                    <phoneme phoneme="G" start="0.25" end="0.32" />
+                    <phoneme phoneme="UH" start="0.32" end="0.47" />
+                    <phoneme phoneme="D" start="0.47" end="0.68" />
+                    <phoneme phoneme="SIL" start="0.68" end="1.17925" />
+                </phonemes>
+                <words>
+                    <word start="0.1" end="0.25">That&apos;s</word>
+                    <word start="0.25" end="0.68">good</word>
+                </words>
+                <analysis_text>That&apos;s good</analysis_text>
+                <events />
+                <event_take />
+                <curves>
+                    <curve name="open" num_keys="6" owner="analysis">-0.322667 0 0 0 0.06341 0.5 0 0 0.181217 0.152644 0 0 0.27 0.378212 2.540661 0.994144 0.44258 0.549781 0 0 0.896 0 0 0</curve>
+                    <curve name="W" num_keys="3" owner="analysis">0.177333 0 0 0 0.291861 0.548516 0 0 0.446 0 0 0</curve>
+                    <curve name="wide" num_keys="4" owner="analysis">-0.322667 0 0 0 0.067153 0.6 0 0 0.203333 0.442051 -1.159851 -4.770332 0.296 0 0 0</curve>
+                    <curve name="tBack" num_keys="3" owner="analysis">0.177333 0 0 0 0.223741 0.695385 0 0 0.296 0 0 0</curve>
+                    <curve name="tRoof" num_keys="7" owner="analysis">-0.022667 0 0 0 0.090839 0.797925 0 0 0.186667 0.379921 -4.36202 -8.904398 0.229333 0 0 0 0.294 0 0 0 0.419378 0.798832 0 0 0.862667 0 0 0</curve>
+                    <curve name="tTeeth" num_keys="4" owner="analysis">-0.322667 0 0 0 0.061757 0.77 0 0 0.086667 0.057032 -28.622503 -6.110568 0.096 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="goodday" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\goodday.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\goodday.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="SIL" start="0" end="0.04" />
+                    <phoneme phoneme="AA" start="0.04" end="0.13" />
+                    <phoneme phoneme="L" start="0.13" end="0.19" />
+                    <phoneme phoneme="R" start="0.19" end="0.27" />
+                    <phoneme phoneme="AE" start="0.27" end="0.37" />
+                    <phoneme phoneme="IY" start="0.37" end="0.47" />
+                    <phoneme phoneme="T" start="0.47" end="0.53" />
+                    <phoneme phoneme="SIL" start="0.53" end="0.97" />
+                    <phoneme phoneme="HH" start="0.97" end="0.99" />
+                    <phoneme phoneme="AE" start="0.99" end="1.11" />
+                    <phoneme phoneme="V" start="1.11" end="1.14" />
+                    <phoneme phoneme="AH" start="1.14" end="1.18" />
+                    <phoneme phoneme="G" start="1.18" end="1.26" />
+                    <phoneme phoneme="UH" start="1.26" end="1.35" />
+                    <phoneme phoneme="D" start="1.35" end="1.36" />
+                    <phoneme phoneme="D" start="1.36" end="1.45" />
+                    <phoneme phoneme="E" start="1.45" end="1.73" />
+                    <phoneme phoneme="SIL" start="1.73" end="2.190375" />
+                </phonemes>
+                <words>
+                    <word start="0.04" end="0.53">Alright</word>
+                    <word start="0.97" end="1.14">have</word>
+                    <word start="1.14" end="1.18">a</word>
+                    <word start="1.18" end="1.36">good</word>
+                    <word start="1.36" end="1.73">day</word>
+                </words>
+                <analysis_text>Alright, have a good day!</analysis_text>
+                <events>
+                    <event_group>
+                        <event group="PhraseEvents" anim="," id="0" start_min="0.04" start_max="0.04" duration_min="0.49" duration_max="0.49" />
+                    </event_group>
+                    <event_group>
+                        <event group="PhraseEvents" anim="!" id="1" start_min="0.97" start_max="0.97" duration_min="0.76" duration_max="0.76" />
+                    </event_group>
+                </events>
+                <event_take>
+                    <event group="PhraseEvents" anim="," id="0" template_parent_id="0" start_time="0.04" duration_scale="0.49" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                    <event group="PhraseEvents" anim="!" id="1" template_parent_id="1" start_time="0.97" duration_scale="0.76" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                </event_take>
+                <curves>
+                    <curve name="open" num_keys="13" owner="analysis">-0.382667 0 0 0 0.007521 0.55 0 0 0.156908 0.4 0 0 0.237924 0.499022 0 0 0.339284 0.201317 0 0 0.417448 0.4 0 0 0.651819 0.244929 0 0 0.952733 0.5 0 0 1.057114 0 0 0 1.11 0.342106 6.468711 1.183218 1.170875 0.414135 0 0 1.543333 0.285539 -0.345262 -0.875889 1.869332 0 0 0</curve>
+                    <curve name="W" num_keys="6" owner="analysis">0.017333 0 0 0 0.15557 0.55 0 0 0.236 0 0 0 1.067333 0 0 0 1.230808 0.549352 0 0 1.419333 0 0 0</curve>
+                    <curve name="FV" num_keys="3" owner="analysis">0.967333 0 0 0 1.060488 0.75 0 0 1.169333 0 0 0</curve>
+                    <curve name="wide" num_keys="11" owner="analysis">0.167333 0 0 0 0.226667 0.555556 9.363311 2.198221 0.33547 0.79473 0 0 0.402667 0 0 0 0.567334 0 0 0 0.952733 0.6 0 0 1.057507 0 0 0 1.115526 0.317777 0 0 1.233179 0.000722 0 0 1.4268 0.249837 0 0 1.869332 0 0 0</curve>
+                    <curve name="tBack" num_keys="8" owner="analysis">0.160667 0 0 0 0.241274 0.397975 0 0 0.346 0 0 0 0.544 0 0 0 0.931187 0.399917 0 0 1.054272 0.003567 0 0 1.137066 0.648656 0 0 1.229333 0 0 0</curve>
+                    <curve name="tRoof" num_keys="11" owner="analysis">0.010667 0 0 0 0.097794 0.649075 0 0 0.162667 0 0 0 0.244 0 0 0 0.353334 0.257015 2.350746 7.794284 0.422848 0.798832 0 0 0.862667 0 0 0 1.227333 0 0 0 1.294318 0.594649 0 0 1.419999 0.2 -3.140064 -0.451808 1.862666 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="6" owner="analysis">0.508 0 0 0 0.873844 -0.328185 0 0 1.045027 0.10439 0 0 1.309999 -0.099154 0 0 2.191332 -0.099154 0 0 2.693332 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="4" owner="analysis">0.508 0 0 0 1.309999 -0.89478 0 0 2.191332 -0.89478 0 0 2.693332 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="4" owner="analysis">0.508 0 0 0 1.309999 0.807699 0 0 2.191332 0.807699 0 0 2.693332 0 0 0</curve>
+                    <curve name="Head Yaw" num_keys="2" owner="analysis">0.508 0 0 0 2.693332 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="hello" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\hello.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\hello.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="SIL" start="0" end="0.2" />
+                    <phoneme phoneme="HH" start="0.2" end="0.28" />
+                    <phoneme phoneme="O" start="0.28" end="0.35" />
+                    <phoneme phoneme="L" start="0.35" end="0.44" />
+                    <phoneme phoneme="O" start="0.44" end="0.55" />
+                    <phoneme phoneme="L" start="0.55" end="0.57" />
+                    <phoneme phoneme="M" start="0.57" end="0.67" />
+                    <phoneme phoneme="AE" start="0.67" end="0.75" />
+                    <phoneme phoneme="IY" start="0.75" end="0.83" />
+                    <phoneme phoneme="M" start="0.83" end="0.91" />
+                    <phoneme phoneme="E" start="0.91" end="1.02" />
+                    <phoneme phoneme="V" start="1.02" end="1.07" />
+                    <phoneme phoneme="IH" start="1.07" end="1.14" />
+                    <phoneme phoneme="Z" start="1.14" end="1.23" />
+                    <phoneme phoneme="EH" start="1.23" end="1.34" />
+                    <phoneme phoneme="L" start="1.34" end="1.44" />
+                    <phoneme phoneme="IY" start="1.44" end="1.59" />
+                    <phoneme phoneme="T" start="1.59" end="1.67" />
+                    <phoneme phoneme="SIL" start="1.67" end="1.75" />
+                    <phoneme phoneme="SIL" start="1.75" end="1.86" />
+                </phonemes>
+                <words />
+                <analysis_text></analysis_text>
+                <events />
+                <event_take />
+                <curves>
+                    <curve name="open" num_keys="12" owner="analysis">-0.156 0 0 0 0.247415 0.399804 0 0 0.503681 0.000775 0 0 0.639863 0.499031 0 0 0.770745 0 0 0 0.879135 0.344523 0 0 0.968184 0 0 0 1.02 0.277317 5.352011 1.487381 1.071502 0.35392 0 0 1.400623 0.200177 0 0 1.534121 0.399416 0 0 1.829332 0 0 0</curve>
+                    <curve name="W" num_keys="3" owner="analysis">-0.156 0 0 0 0.247415 0.549731 0 0 0.512667 0 0 0</curve>
+                    <curve name="PBM" num_keys="5" owner="analysis">0.244 0 0 0 0.504705 0.898255 0 0 0.639871 0.001745 0 0 0.76869 0.9 0 0 0.879333 0 0 0</curve>
+                    <curve name="FV" num_keys="3" owner="analysis">0.877333 0 0 0 0.974982 0.75 0 0 1.162666 0 0 0</curve>
+                    <curve name="wide" num_keys="9" owner="analysis">0.510667 0 0 0 0.603334 0.483732 5.220134 1.928291 0.667577 0.607612 0 0 0.776169 0 0 0 0.879135 0.246088 0 0 0.966276 0 0 0 1.036667 0.430965 6.122471 1.022852 1.397242 0.79978 0 0 1.529333 0 0 0</curve>
+                    <curve name="tBack" num_keys="8" owner="analysis">0.510667 0 0 0 0.638223 0.399225 0 0 0.746 0 0 0 0.977333 0 0 0 1.039738 0.272995 0 0 1.11009 0.007003 0 0 1.201691 0.398921 0 0 1.312666 0 0 0</curve>
+                    <curve name="tRoof" num_keys="15" owner="analysis">0.177333 0 0 0 0.316259 0.8 0 0 0.412667 0 0 0 0.644 0 0 0 0.716699 0.1 0 0 0.772946 0 0 0 0.879135 0.19687 0 0 0.962667 0 0 0 0.994 0 0 0 1.10837 0.396044 0 0 1.199034 0.002159 0 0 1.310165 0.79154 0 0 1.410792 0.207646 0 0 1.535964 0.798833 0 0 1.829332 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="4" owner="analysis">0.851333 0 0 0 1.233897 -1.599771 0 0 2.084869 0.232876 0 0 2.353332 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="6" owner="analysis">0.901333 0 0 0 1.368754 0.860749 0 0 1.736666 0 0 0 1.851332 0 0 0 2.08487 0.396059 0 0 2.353332 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="3" owner="analysis">0.851333 0 0 0 1.233897 1.599771 0 0 2.003332 0 0 0</curve>
+                    <curve name="Head Roll" num_keys="6" owner="analysis">0.918 0 0 0 1.368754 0.11996 0 0 1.736666 0 0 0 1.851332 0 0 0 2.084869 0.064788 0 0 2.353332 0 0 0</curve>
+                    <curve name="Head Yaw" num_keys="6" owner="analysis">0.901333 0 0 0 1.368754 -0.860749 0 0 1.736666 0 0 0 1.851332 0 0 0 2.084869 -0.464871 0 0 2.353332 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="hello_cmu1" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\hello_cmu1.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\hello_cmu1.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="SIL" start="0" end="0.11" />
+                    <phoneme phoneme="K" start="0.11" end="0.22" />
+                    <phoneme phoneme="O" start="0.22" end="0.29" />
+                    <phoneme phoneme="L" start="0.29" end="0.42" />
+                    <phoneme phoneme="EH" start="0.42" end="0.5" />
+                    <phoneme phoneme="M" start="0.5" end="0.59" />
+                    <phoneme phoneme="AE" start="0.59" end="0.655" />
+                    <phoneme phoneme="IY" start="0.655" end="0.72" />
+                    <phoneme phoneme="N" start="0.72" end="0.8" />
+                    <phoneme phoneme="E" start="0.8" end="0.94" />
+                    <phoneme phoneme="N" start="0.94" end="1.01" />
+                    <phoneme phoneme="IH" start="1.01" end="1.08" />
+                    <phoneme phoneme="Z" start="1.08" end="1.17" />
+                    <phoneme phoneme="EH" start="1.17" end="1.25" />
+                    <phoneme phoneme="L" start="1.25" end="1.29" />
+                    <phoneme phoneme="R" start="1.29" end="1.33" />
+                    <phoneme phoneme="E" start="1.33" end="1.55" />
+                    <phoneme phoneme="SIL" start="1.55" end="1.66" />
+                    <phoneme phoneme="SIL" start="1.66" end="1.76" />
+                </phonemes>
+                <words />
+                <analysis_text></analysis_text>
+                <events />
+                <event_take />
+                <curves>
+                    <curve name="open" num_keys="13" owner="analysis">-0.206 0 0 0 0.191388 0.399917 0 0 0.386667 0.267225 -0.6795 -4.716913 0.442644 0.003185 0 0 0.557565 0.495542 0 0 0.630975 0.202757 0 0 0.736667 0.329864 1.20261 0.558898 0.836667 0.385753 0.558898 0.787592 0.981355 0.499709 0 0 1.132296 0.411831 0 0 1.269489 0.545812 0 0 1.386666 0.250269 -2.522187 -0.730358 1.729332 0 0 0</curve>
+                    <curve name="W" num_keys="6" owner="analysis">-0.206 0 0 0 0.185257 0.549886 0 0 0.412667 0 0 0 0.977333 0 0 0 1.253785 0.396557 0 0 1.379333 0 0 0</curve>
+                    <curve name="PBM" num_keys="3" owner="analysis">0.194 0 0 0 0.434054 0.899524 0 0 0.562667 0 0 0</curve>
+                    <curve name="wide" num_keys="10" owner="analysis">0.194 0 0 0 0.380578 0.299753 0 0 0.442644 0.003822 0 0 0.52 0.444447 5.696069 3.313167 0.626299 0.796632 0 0 0.774378 0.25 0 0 0.980346 0.59907 0 0 1.234269 0.173751 0 0 1.306375 0.19981 0 0 1.729332 0 0 0</curve>
+                    <curve name="tBack" num_keys="13" owner="analysis">-0.322667 0 0 0 0.07092 0.798525 0 0 0.196 0 0 0 0.260667 0 0 0 0.382711 0.199612 0 0 0.442644 0.002548 0 0 0.55535 0.396434 0 0 0.629334 0 0 0 0.910667 0 0 0 0.980224 0.389807 0 0 1.052115 0.001605 0 0 1.140599 0.398394 0 0 1.246 0 0 0</curve>
+                    <curve name="tRoof" num_keys="15" owner="analysis">0.194 0 0 0 0.264479 0.79044 0 0 0.412667 0 0 0 0.560667 0 0 0 0.636667 0.251051 3.30331 9.999328 0.691108 0.795429 0 0 0.774021 0.2 0 0 0.903347 0.796048 0 0 0.982789 0.010193 0 0 1.052115 0.398395 0 0 1.139095 0.001606 0 0 1.215845 0.383728 0 0 1.263249 0.046768 0 0 1.311066 0.121432 0 0 1.729332 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="4" owner="analysis">0.134667 0 0 0 0.595649 -3.999771 0 0 1.503333 0 0 0 2.253332 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="2" owner="analysis">0.601334 0 0 0 2.253332 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="3" owner="analysis">0.134667 0 0 0 0.595649 3.999771 0 0 1.503333 0 0 0</curve>
+                    <curve name="Head Roll" num_keys="4" owner="analysis">0.584667 0 0 0 0.976745 -0.090196 0 0 1.303333 0 0 0 2.253332 0 0 0</curve>
+                    <curve name="Head Yaw" num_keys="2" owner="analysis">0.601334 0 0 0 1.786666 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="hello_microsoft" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\hello_microsoft.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\hello_microsoft.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="SIL" start="0" end="0.09" />
+                    <phoneme phoneme="HH" start="0.09" end="0.18" />
+                    <phoneme phoneme="AH" start="0.18" end="0.26" />
+                    <phoneme phoneme="L" start="0.26" end="0.33" />
+                    <phoneme phoneme="O" start="0.33" end="0.43" />
+                    <phoneme phoneme="M" start="0.43" end="0.51" />
+                    <phoneme phoneme="AE" start="0.51" end="0.565" />
+                    <phoneme phoneme="IY" start="0.565" end="0.62" />
+                    <phoneme phoneme="N" start="0.62" end="0.71" />
+                    <phoneme phoneme="E" start="0.71" end="0.82" />
+                    <phoneme phoneme="M" start="0.82" end="0.9" />
+                    <phoneme phoneme="IH" start="0.9" end="0.97" />
+                    <phoneme phoneme="Z" start="0.97" end="1.06" />
+                    <phoneme phoneme="SIL" start="1.06" end="1.09" />
+                    <phoneme phoneme="EH" start="1.09" end="1.14" />
+                    <phoneme phoneme="L" start="1.14" end="1.23" />
+                    <phoneme phoneme="IY" start="1.23" end="1.41" />
+                    <phoneme phoneme="SIL" start="1.41" end="2.124187" />
+                </phonemes>
+                <words>
+                    <word start="0.09" end="0.43">hello</word>
+                    <word start="0.43" end="0.62">my</word>
+                    <word start="0.62" end="0.9">name</word>
+                    <word start="0.9" end="1.06">is</word>
+                    <word start="1.09" end="1.41">ellie</word>
+                </words>
+                <analysis_text>hello my name is ellie&#x09;</analysis_text>
+                <events />
+                <event_take />
+                <curves>
+                    <curve name="open" num_keys="14" owner="analysis">-0.242667 0 0 0 0.148667 0.5 0 0 0.3 0.325931 -1.150238 -4.552781 0.371135 0.00207 0 0 0.477736 0.496827 0 0 0.54097 0.20081 0 0 0.671222 0.326037 0 0 0.760691 0.005287 0 0 0.867827 0.49865 0 0 0.942528 0.156886 0 0 1.061587 0.498024 0 0 1.183333 0.211743 -2.351455 -0.402139 1.366666 0.138018 -0.402139 -0.500066 1.642666 0 0 0</curve>
+                    <curve name="W" num_keys="3" owner="analysis">0.157333 0 0 0 0.294889 0.432143 0 0 0.376 0 0 0</curve>
+                    <curve name="PBM" num_keys="6" owner="analysis">0.240667 0 0 0 0.368338 0.898364 0 0 0.476 0 0 0 0.657333 0 0 0 0.760655 0.890483 0 0 0.876 0 0 0</curve>
+                    <curve name="wide" num_keys="13" owner="analysis">-0.242667 0 0 0 0.144178 0.6 0 0 0.309333 0 0 0 0.374 0 0 0 0.45 0.49046 6.453409 3.513298 0.537952 0.79946 0 0 0.633333 0.398214 -4.206751 -3.112416 0.759239 0.006344 0 0 0.872756 0.59838 0 0 0.942528 0.501967 0 0 1.1 0.63965 0.874331 1.549489 1.203486 0.8 0 0 1.642666 0 0 0</curve>
+                    <curve name="tBack" num_keys="11" owner="analysis">-0.339333 0 0 0 0.053259 0.39967 0 0 0.229333 0 0 0 0.377334 0 0 0 0.476308 0.390684 0 0 0.529334 0 0 0 0.760667 0 0 0 0.866701 0.4 0 0 0.942895 0.002635 0 0 1.055507 0.396433 0 0 1.129333 0 0 0</curve>
+                    <curve name="tRoof" num_keys="13" owner="analysis">0.060667 0 0 0 0.226365 0.792021 0 0 0.312667 0 0 0 0.477334 0 0 0 0.592074 0.716457 0 0 0.67 0.230652 -6.234161 -2.489057 0.762667 0 0 0 0.877333 0 0 0 0.942895 0.397365 0 0 1.050953 0.003567 0 0 1.117123 0.666862 0 0 1.203333 0.199967 -5.415815 -0.451734 1.645999 0 0 0</curve>
+                    <curve name="Blink" num_keys="6" owner="analysis">0.168 0 0 0 0.326632 0.999199 0 0 0.436667 0 0 0 2.084666 0 0 0 2.183062 0.714791 0 0 2.286665 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="3" owner="analysis">-0.098666 0 0 0 0.3339 -3.999523 0 0 1.17 0 0 0</curve>
+                    <curve name="Eyebrow Raise" num_keys="3" owner="analysis">0.201334 0 0 0 0.567837 0.44475 0 0 1.186666 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="3" owner="analysis">-0.098666 0 0 0 0.3339 3.999523 0 0 1.17 0 0 0</curve>
+                    <curve name="Squint" num_keys="3" owner="analysis">-0.048666 0 0 0 0.333389 0.353712 0 0 0.986667 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="please" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\please.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\please.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="P" start="0" end="0.09" />
+                    <phoneme phoneme="L" start="0.09" end="0.13" />
+                    <phoneme phoneme="IY" start="0.13" end="0.31" />
+                    <phoneme phoneme="Z" start="0.31" end="0.39" />
+                    <phoneme phoneme="SIL" start="0.39" end="0.79" />
+                    <phoneme phoneme="IH" start="0.79" end="0.9" />
+                    <phoneme phoneme="M" start="0.9" end="0.96" />
+                    <phoneme phoneme="AE" start="0.96" end="1.02" />
+                    <phoneme phoneme="N" start="1.02" end="1.08" />
+                    <phoneme phoneme="Y" start="1.08" end="1.1" />
+                    <phoneme phoneme="UW" start="1.1" end="1.17" />
+                    <phoneme phoneme="AH" start="1.17" end="1.22" />
+                    <phoneme phoneme="L" start="1.22" end="1.36" />
+                    <phoneme phoneme="SIL" start="1.36" end="1.52" />
+                    <phoneme phoneme="K" start="1.52" end="1.61" />
+                    <phoneme phoneme="AA" start="1.61" end="1.65" />
+                    <phoneme phoneme="L" start="1.65" end="1.7" />
+                    <phoneme phoneme="M" start="1.7" end="1.77" />
+                    <phoneme phoneme="IY" start="1.77" end="1.86" />
+                    <phoneme phoneme="AE" start="1.86" end="1.95" />
+                    <phoneme phoneme="N" start="1.95" end="1.99" />
+                    <phoneme phoneme="D" start="1.99" end="2.04" />
+                    <phoneme phoneme="O" start="2.04" end="2.14" />
+                    <phoneme phoneme="SIL" start="2.14" end="2.619" />
+                </phonemes>
+                <words>
+                    <word start="0" end="0.39">Please</word>
+                    <word start="0.79" end="1.36">Emmanuel</word>
+                    <word start="1.52" end="1.7">call</word>
+                    <word start="1.7" end="1.86">me</word>
+                    <word start="1.86" end="2.14">ando</word>
+                </words>
+                <analysis_text>Please Emmanuel, call me ando</analysis_text>
+                <events>
+                    <event_group>
+                        <event group="PhraseEvents" anim="," id="0" duration_min="1.36" duration_max="1.36" />
+                    </event_group>
+                </events>
+                <event_take>
+                    <event group="PhraseEvents" anim="," id="0" template_parent_id="0" start_time="0" duration_scale="1.36" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                </event_take>
+                <curves>
+                    <curve name="open" num_keys="22" owner="analysis">-0.052666 0 0 0 0.106553 0.199799 0 0 0.268115 0.150201 0 0 0.361898 0.356036 0 0 0.481162 0.327483 0 0 0.725034 0.400259 0 0 0.773333 0.363054 -0.77029 -5.458481 0.839845 0 0 0 0.916 0.55 0 0 0.997333 0.55 0 0 1.045124 0.457148 0 0 1.098479 0.524299 0 0 1.126714 0.499156 0 0 1.149333 0.55 0 0 1.197333 0.55 0 0 1.573333 0.353716 -0.522032 -4.914718 1.645304 0 0 0 1.756666 0.227052 2.038854 3.311028 1.838833 0.499109 0 0 1.956666 0.421136 -0.661724 -0.556336 2.139999 0.319141 -0.556336 -0.97896 2.465999 0 0 0</curve>
+                    <curve name="W" num_keys="6" owner="analysis">0.864 0 0 0 1.065522 0.468474 0 0 1.149333 0 0 0 1.830666 0 0 0 2.014251 0.549441 0 0 2.465999 0 0 0</curve>
+                    <curve name="ShCh" num_keys="3" owner="analysis">0.930667 0 0 0 1.040003 0.107837 0 0 1.082667 0 0 0</curve>
+                    <curve name="PBM" num_keys="9" owner="analysis">-0.452667 0 0 0 -0.065946 0.9 0 0 0.099334 0 0 0 0.580667 0 0 0 0.833595 0.9 0 0 0.932667 0 0 0 1.347333 0 0 0 1.633582 0.9 0 0 1.732666 0 0 0</curve>
+                    <curve name="wide" num_keys="15" owner="analysis">-0.052666 0 0 0 0.104692 0.798796 0 0 0.24 0.53786 -1.928457 -0.90381 0.532121 0.273838 0 0 0.749784 0.464904 0 0 0.839845 0 0 0 0.931693 0.590692 0 0 1.047858 0.057068 0 0 1.137225 0.566668 0 0 1.216 0 0 0 1.647333 0 0 0 1.744444 0.8 0 0 1.806666 0.633361 -2.67815 -1.814038 1.873333 0.512425 -1.814038 -3.591767 2.015999 0 0 0</curve>
+                    <curve name="tBack" num_keys="13" owner="analysis">0.364 0 0 0 0.749784 0.309936 0 0 0.839845 0 0 0 0.928627 0.393741 0 0 0.999333 0 0 0 1.030667 0 0 0 1.139989 0.4 0 0 1.234316 0.060988 0 0 1.483338 0.8 0 0 1.582666 0 0 0 1.747333 0 0 0 1.830395 0.393739 0 0 1.932666 0 0 0</curve>
+                    <curve name="tRoof" num_keys="19" owner="analysis">-0.052666 0 0 0 0.058726 0.62998 0 0 0.106667 0.236744 -8.202558 -1.3313 0.123162 0.214784 0 0 0.281885 0.399416 0 0 0.732667 0 0 0 0.930667 0 0 0 0.994381 0.641211 0 0 1.082667 0 0 0 1.147333 0 0 0 1.197779 0.656001 0 0 1.482666 0 0 0 1.547333 0 0 0 1.615506 0.018519 0 0 1.640926 0 0 0 1.742326 0.2 0 0 1.767969 0.188902 0 0 1.921298 0.795305 0 0 2.015999 0 0 0</curve>
+                    <curve name="Blink" num_keys="3" owner="analysis">2.587999 0 0 0 2.685312 0.655182 0 0 2.789999 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="4" owner="analysis">1.471333 0 0 0 1.673333 -0.895686 0 0 2.621332 -0.895686 0 0 3.123332 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="8" owner="analysis">0.421334 0 0 0 1.34 -1.562166 0 0 1.471333 -1.562166 0 0 1.618788 -1.771402 0 0 2.152282 -1.104079 0 0 2.506665 -1.276882 0 0 2.621332 -1.276882 0 0 3.123332 0 0 0</curve>
+                    <curve name="Head Roll" num_keys="7" owner="analysis">0.421334 0 0 0 1.34 -0.344284 0 0 1.371333 -0.344284 0 0 1.616621 1.255453 0 0 2.156666 -0.344284 0 0 2.621332 -0.344284 0 0 3.123332 0 0 0</curve>
+                    <curve name="Head Yaw" num_keys="7" owner="analysis">0.421334 0 0 0 1.34 1.562166 0 0 1.604666 1.562166 0 0 2.152282 0.818664 0 0 2.506665 0.991467 0 0 2.621332 0.991467 0 0 3.123332 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="stay_japan" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\stay_japan.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\stay_japan.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="AE" start="0" end="0.085" />
+                    <phoneme phoneme="IY" start="0.085" end="0.17" />
+                    <phoneme phoneme="AH" start="0.17" end="0.24" />
+                    <phoneme phoneme="M" start="0.24" end="0.29" />
+                    <phoneme phoneme="D" start="0.29" end="0.35" />
+                    <phoneme phoneme="UW" start="0.35" end="0.45" />
+                    <phoneme phoneme="IH" start="0.45" end="0.48" />
+                    <phoneme phoneme="NG" start="0.48" end="0.53" />
+                    <phoneme phoneme="W" start="0.53" end="0.61" />
+                    <phoneme phoneme="EH" start="0.61" end="0.71" />
+                    <phoneme phoneme="L" start="0.71" end="0.9" />
+                    <phoneme phoneme="SIL" start="0.9" end="1.13" />
+                    <phoneme phoneme="TH" start="1.13" end="1.15" />
+                    <phoneme phoneme="AE" start="1.15" end="1.26" />
+                    <phoneme phoneme="NG" start="1.26" end="1.35" />
+                    <phoneme phoneme="K" start="1.35" end="1.36" />
+                    <phoneme phoneme="S" start="1.36" end="1.42" />
+                    <phoneme phoneme="F" start="1.42" end="1.48" />
+                    <phoneme phoneme="AA" start="1.48" end="1.54" />
+                    <phoneme phoneme="R" start="1.54" end="1.62" />
+                    <phoneme phoneme="AE" start="1.62" end="1.78" />
+                    <phoneme phoneme="S" start="1.78" end="1.86" />
+                    <phoneme phoneme="K" start="1.86" end="1.89" />
+                    <phoneme phoneme="IH" start="1.89" end="1.95" />
+                    <phoneme phoneme="NG" start="1.95" end="2.16" />
+                    <phoneme phoneme="SIL" start="2.16" end="2.57" />
+                    <phoneme phoneme="HH" start="2.57" end="2.67" />
+                    <phoneme phoneme="AE" start="2.67" end="2.74" />
+                    <phoneme phoneme="UH" start="2.74" end="2.81" />
+                    <phoneme phoneme="IH" start="2.81" end="2.89" />
+                    <phoneme phoneme="Z" start="2.89" end="2.95" />
+                    <phoneme phoneme="Y" start="2.95" end="3" />
+                    <phoneme phoneme="EXR" start="3" end="3.04" />
+                    <phoneme phoneme="S" start="3.04" end="3.14" />
+                    <phoneme phoneme="T" start="3.14" end="3.19" />
+                    <phoneme phoneme="E" start="3.19" end="3.37" />
+                    <phoneme phoneme="IH" start="3.37" end="3.43" />
+                    <phoneme phoneme="N" start="3.43" end="3.48" />
+                    <phoneme phoneme="JH" start="3.48" end="3.54" />
+                    <phoneme phoneme="AH" start="3.54" end="3.57" />
+                    <phoneme phoneme="P" start="3.57" end="3.64" />
+                    <phoneme phoneme="AE" start="3.64" end="3.87" />
+                    <phoneme phoneme="N" start="3.87" end="4.03" />
+                    <phoneme phoneme="SIL" start="4.03" end="4.442812" />
+                </phonemes>
+                <words>
+                    <word start="0" end="0.17">I</word>
+                    <word start="0.17" end="0.29">am</word>
+                    <word start="0.29" end="0.53">doing</word>
+                    <word start="0.53" end="0.9">well</word>
+                    <word start="1.13" end="1.42">thanks</word>
+                    <word start="1.42" end="1.62">for</word>
+                    <word start="1.62" end="2.16">asking</word>
+                    <word start="2.57" end="2.81">How</word>
+                    <word start="2.81" end="2.95">is</word>
+                    <word start="2.95" end="3.04">your</word>
+                    <word start="3.04" end="3.37">stay</word>
+                    <word start="3.37" end="3.48">in</word>
+                    <word start="3.48" end="4.03">Japan</word>
+                </words>
+                <analysis_text>I am doing well, thanks for asking. How is your stay in Japan?</analysis_text>
+                <events>
+                    <event_group>
+                        <event group="PhraseEvents" anim="," id="0" duration_min="0.9" duration_max="0.9" />
+                    </event_group>
+                    <event_group>
+                        <event group="PhraseEvents" anim="." id="1" start_min="1.13" start_max="1.13" duration_min="1.03" duration_max="1.03" />
+                    </event_group>
+                    <event_group>
+                        <event group="PhraseEvents" anim="?" id="2" start_min="2.57" start_max="2.57" duration_min="1.46" duration_max="1.46" />
+                    </event_group>
+                </events>
+                <event_take>
+                    <event group="PhraseEvents" anim="," id="0" template_parent_id="0" start_time="0" duration_scale="0.9" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                    <event group="PhraseEvents" anim="." id="1" template_parent_id="1" start_time="1.13" duration_scale="1.03" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                    <event group="PhraseEvents" anim="?" id="2" template_parent_id="2" start_time="2.57" duration_scale="1.46" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                </event_take>
+                <curves>
+                    <curve name="open" num_keys="35" owner="analysis">-0.422667 0 0 0 -0.037039 0.5 0 0 0.059844 0.200341 0 0 0.112855 0.2277 0 0 0.186391 0.002635 0 0 0.286667 0.342771 3.392012 1.194472 0.418297 0.5 0 0 0.500223 0.400506 0 0 0.57 0.495703 1.364303 0.496617 0.679334 0.55 0 0 0.977333 0.55 0 0 1.186666 0.380293 -0.810703 -2.139027 1.364454 0 0 0 1.456604 0.546017 0 0 1.513086 0.404296 0 0 1.590054 0.499493 0 0 1.747789 0.150944 0 0 1.836666 0.459433 3.470988 1.023289 1.925171 0.55 0 0 2.300326 0.066272 0 0 2.632875 0.499896 0 0 2.709776 0.402549 0 0 2.777541 0.494459 0 0 2.836665 0.221964 -4.60886 -2.796375 2.91604 0 0 0 2.990053 0.355437 0 0 3.058094 0.242666 0 0 3.119998 0.326402 1.352684 0.624849 3.219998 0.388887 0.624849 1.001948 3.330743 0.499847 0 0 3.429331 0 0 0 3.510664 0 0 0 3.603331 0.493625 5.326893 0.242726 3.835459 0.549969 0 0 4.296001 0 0 0</curve>
+                    <curve name="W" num_keys="14" owner="analysis">0.177333 0 0 0 0.317429 0.55 0 0 0.418297 0 0 0 0.500223 0.547214 0 0 0.579334 0 0 0 1.443999 0 0 0 1.510913 0.533411 0 0 1.595999 0 0 0 2.643998 0 0 0 2.709776 0.535978 0 0 2.779332 0 0 0 2.860665 0 0 0 2.919917 0.5 0 0 2.979331 0 0 0</curve>
+                    <curve name="ShCh" num_keys="7" owner="analysis">2.860665 0 0 0 2.903332 0.243405 5.704793 2.828001 2.960925 0.406278 0 0 3.079331 0 0 0 3.343998 0 0 0 3.429548 0.833287 0 0 3.512664 0 0 0</curve>
+                    <curve name="PBM" num_keys="6" owner="analysis">0.027333 0 0 0 0.179751 0.894072 0 0 0.312667 0 0 0 3.343998 0 0 0 3.506602 0.895439 0 0 3.612664 0 0 0</curve>
+                    <curve name="FV" num_keys="3" owner="analysis">0.944 0 0 0 1.36232 0.75 0 0 1.445999 0 0 0</curve>
+                    <curve name="wide" num_keys="33" owner="analysis">-0.422667 0 0 0 -0.013333 0.620053 1.514787 2.684903 0.053604 0.799772 0 0 0.179333 0 0 0 0.327334 0 0 0 0.418297 0.6 0 0 0.500223 0.003039 0 0 0.581575 0.592355 0 0 0.668682 0.016799 0 0 0.77 0.246015 2.262335 0.949192 1.114351 0.572869 0 0 1.32 0.132598 -2.140885 -3.107782 1.362666 0 0 0 1.510666 0 0 0 1.597144 0.598033 0 0 1.747789 0.50027 0 0 1.848255 0.598942 0 0 1.912666 0 0 0 2.243999 0 0 0 2.629484 0.599876 0 0 2.709776 0.015296 0 0 2.788786 0.598033 0 0 2.869998 0.462975 -1.663026 -10.85097 2.912665 0 0 0 2.943998 0 0 0 3.003331 0.308938 5.20682 0.98609 3.039092 0.344201 0 0 3.158033 0.250819 0 0 3.332472 0.599644 0 0 3.429331 0 0 0 3.510664 0 0 0 3.614765 0.596698 0 0 3.845997 0 0 0</curve>
+                    <curve name="tBack" num_keys="32" owner="analysis">-0.422667 0 0 0 -0.037532 0.4 0 0 0.05845 0.000455 0 0 0.134121 0.142215 0 0 0.179333 0 0 0 0.327334 0 0 0 0.415673 0.186383 0 0 0.486128 0 0 0 0.581575 0.394903 0 0 0.679334 0 0 0 1.010666 0 0 0 1.119726 0.08693 0 0 1.228894 0.001515 0 0 1.31519 0.096842 0 0 1.362666 0 0 0 1.510666 0 0 0 1.593531 0.397974 0 0 1.734992 0.0165 0 0 1.830751 0.608022 0 0 1.853332 0.431799 -7.803853 -7.277526 1.912666 0 0 0 2.143999 0 0 0 2.533159 0.399917 0 0 2.702988 0.001798 0 0 2.781019 0.392133 0 0 2.862665 0 0 0 3.160665 0 0 0 3.333828 0.399593 0 0 3.429331 0 0 0 3.510664 0 0 0 3.614765 0.397798 0 0 3.845997 0 0 0</curve>
+                    <curve name="tRoof" num_keys="31" owner="analysis">-0.022667 0 0 0 0.05679 0.199772 0 0 0.166428 0 0 0 0.234482 0.351742 0 0 0.31979 0.003097 0 0 0.445656 0.425666 0 0 0.496 0 0 0 0.577334 0 0 0 0.691157 0.799402 0 0 0.92 0.314869 -2.117311 -2.179132 1.031707 0.071445 0 0 1.212666 0.8 0 0 1.244 0.8 0 0 1.303333 0.198821 -10.132239 -3.350916 1.362666 0 0 0 1.593999 0 0 0 1.747322 0.39869 0 0 1.849007 0 0 0 1.927985 0.8 0 0 2.362665 0 0 0 2.777332 0 0 0 2.862665 0.4 0 0 2.927331 0.4 0 0 3.075376 0.79518 0 0 3.153331 0.211812 -7.483392 -1.208533 3.312501 0.019451 0 0 3.403312 0.521201 0 0 3.512664 0 0 0 3.610664 0 0 0 3.843562 0.7995 0 0 4.296001 0 0 0</curve>
+                    <curve name="tTeeth" num_keys="3" owner="analysis">0.677334 0 0 0 1.095011 0.767767 0 0 1.212666 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="4" owner="analysis">1.018 0 0 0 1.22 -0.485985 0 0 4.43467 -0.485985 0 0 4.936677 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="7" owner="analysis">0.451334 0 0 0 1.040782 0.33302 0 0 1.205958 0.227797 0 0 2.074935 0.232862 0 0 2.953331 0.947662 0 0 4.43467 0.947662 0 0 4.936677 0 0 0</curve>
+                    <curve name="Head Roll" num_keys="6" owner="analysis">0.451334 0 0 0 1.286666 -1.515487 0 0 2.034666 -1.515487 0 0 2.953331 0.736708 0 0 4.43467 0.736708 0 0 4.936677 0 0 0</curve>
+                    <curve name="Head Yaw" num_keys="6" owner="analysis">0.451334 0 0 0 1.286666 -0.432674 0 0 2.074935 -0.427699 0 0 2.953331 -1.142499 0 0 4.43467 -1.142499 0 0 4.936677 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="talk_soon" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\talk_soon.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\talk_soon.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="DH" start="0" end="0.13" />
+                    <phoneme phoneme="AE" start="0.13" end="0.25" />
+                    <phoneme phoneme="T" start="0.25" end="0.32" />
+                    <phoneme phoneme="S" start="0.32" end="0.42" />
+                    <phoneme phoneme="AE" start="0.42" end="0.49" />
+                    <phoneme phoneme="UH" start="0.49" end="0.56" />
+                    <phoneme phoneme="N" start="0.56" end="0.62" />
+                    <phoneme phoneme="Z" start="0.62" end="0.72" />
+                    <phoneme phoneme="G" start="0.72" end="0.77" />
+                    <phoneme phoneme="R" start="0.77" end="0.81" />
+                    <phoneme phoneme="E" start="0.81" end="1" />
+                    <phoneme phoneme="T" start="1" end="1.12" />
+                    <phoneme phoneme="SIL" start="1.12" end="1.77" />
+                    <phoneme phoneme="AE" start="1.77" end="1.845" />
+                    <phoneme phoneme="IY" start="1.845" end="1.92" />
+                    <phoneme phoneme="HH" start="1.92" end="2.02" />
+                    <phoneme phoneme="AE" start="2.02" end="2.13" />
+                    <phoneme phoneme="F" start="2.13" end="2.2" />
+                    <phoneme phoneme="T" start="2.2" end="2.24" />
+                    <phoneme phoneme="UH" start="2.24" end="2.31" />
+                    <phoneme phoneme="G" start="2.31" end="2.36" />
+                    <phoneme phoneme="O" start="2.36" end="2.49" />
+                    <phoneme phoneme="N" start="2.49" end="2.55" />
+                    <phoneme phoneme="AE" start="2.55" end="2.7" />
+                    <phoneme phoneme="UH" start="2.7" end="2.85" />
+                    <phoneme phoneme="SIL" start="2.85" end="3.32" />
+                    <phoneme phoneme="B" start="3.32" end="3.39" />
+                    <phoneme phoneme="AH" start="3.39" end="3.57" />
+                    <phoneme phoneme="T" start="3.57" end="3.69" />
+                    <phoneme phoneme="SIL" start="3.69" end="3.83" />
+                    <phoneme phoneme="L" start="3.83" end="3.95" />
+                    <phoneme phoneme="EH" start="3.95" end="4.04" />
+                    <phoneme phoneme="T" start="4.04" end="4.09" />
+                    <phoneme phoneme="S" start="4.09" end="4.17" />
+                    <phoneme phoneme="T" start="4.17" end="4.24" />
+                    <phoneme phoneme="AA" start="4.24" end="4.35" />
+                    <phoneme phoneme="K" start="4.35" end="4.41" />
+                    <phoneme phoneme="S" start="4.41" end="4.52" />
+                    <phoneme phoneme="UW" start="4.52" end="4.69" />
+                    <phoneme phoneme="N" start="4.69" end="4.91" />
+                    <phoneme phoneme="SIL" start="4.91" end="5.379" />
+                </phonemes>
+                <words>
+                    <word start="0" end="0.32">That</word>
+                    <word start="0.32" end="0.72">sounds</word>
+                    <word start="0.72" end="1.12">great</word>
+                    <word start="1.77" end="1.92">I</word>
+                    <word start="1.92" end="2.2">have</word>
+                    <word start="2.2" end="2.31">to</word>
+                    <word start="2.31" end="2.49">go</word>
+                    <word start="2.49" end="2.85">now</word>
+                    <word start="3.32" end="3.69">but</word>
+                    <word start="3.83" end="4.17">let&apos;s</word>
+                    <word start="4.17" end="4.41">talk</word>
+                    <word start="4.41" end="4.91">soon</word>
+                </words>
+                <analysis_text>That sounds great! I have to go now. but, let&apos;s talk soon</analysis_text>
+                <events>
+                    <event_group>
+                        <event group="PhraseEvents" anim="!" id="0" duration_min="1.12" duration_max="1.12" />
+                    </event_group>
+                    <event_group>
+                        <event group="PhraseEvents" anim="." id="1" start_min="1.77" start_max="1.77" duration_min="1.08" duration_max="1.08" />
+                    </event_group>
+                    <event_group>
+                        <event group="PhraseEvents" anim="," id="2" start_min="3.32" start_max="3.32" duration_min="0.37" duration_max="0.37" />
+                    </event_group>
+                </events>
+                <event_take>
+                    <event group="PhraseEvents" anim="!" id="0" template_parent_id="0" start_time="0" duration_scale="1.12" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                    <event group="PhraseEvents" anim="." id="1" template_parent_id="1" start_time="1.77" duration_scale="1.08" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                    <event group="PhraseEvents" anim="," id="2" template_parent_id="2" start_time="3.32" duration_scale="0.37" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                </event_take>
+                <curves>
+                    <curve name="open" num_keys="31" owner="analysis">-0.422667 0 0 0 -0.146667 0.357487 1.295243 1.097654 -0.08 0.430664 1.097654 0.373803 0.105419 0.499974 0 0 0.47 0.395789 -0.285766 -2.006502 0.592255 0.150485 0 0 0.686667 0.299705 1.580533 3.27655 0.752048 0.513929 0 0 0.810568 0.382362 0 0 0.87 0.467938 1.439899 0.813887 0.970828 0.55 0 0 1.377163 0.026877 0 0 1.730393 0.499896 0 0 1.821861 0.20072 0 0 1.982736 0.499677 0 0 2.083546 0.003047 0 0 2.203332 0.396951 3.288383 0.330708 2.514933 0.5 0 0 2.636665 0.412621 -0.717797 -0.634489 2.819998 0.296298 -0.634489 -1.012409 3.112665 0 0 0 3.277331 0 0 0 3.353331 0.492171 6.475937 0.303354 3.543795 0.549949 0 0 3.936664 0.486304 -0.162001 -2.710115 4.059905 0.152306 0 0 4.210558 0.5477 0 0 4.379144 0.152646 0 0 4.470004 0.37822 2.482657 0.894146 4.661368 0.549327 0 0 5.112679 0 0 0</curve>
+                    <curve name="W" num_keys="13" owner="analysis">0.094 0 0 0 0.45185 0.549441 0 0 0.591891 0.001066 0 0 0.734713 0.396643 0 0 0.812667 0 0 0 2.077332 0 0 0 2.215059 0.54832 0 0 2.514933 0 0 0 2.676586 0.55 0 0 3.112665 0 0 0 4.377336 0 0 0 4.492517 0.548519 0 0 4.662673 0 0 0</curve>
+                    <curve name="PBM" num_keys="4" owner="analysis">2.677332 0 0 0 2.819998 0.34697 2.432037 1.251447 3.26191 0.9 0 0 3.362664 0 0 0</curve>
+                    <curve name="FV" num_keys="3" owner="analysis">1.993999 0 0 0 2.082603 0.744287 0 0 2.212666 0 0 0</curve>
+                    <curve name="wide" num_keys="23" owner="analysis">-0.022667 0 0 0 0.107849 0.599847 0 0 0.452649 0.00061 0 0 0.591325 0.499031 0 0 0.726763 0.152705 0 0 0.783067 0.199125 0 0 0.962667 0 0 0 1.344 0 0 0 1.753332 0.616714 1.50663 2.667612 1.821861 0.79952 0 0 2.003332 0.5644 -1.295624 -7.426325 2.079332 0 0 0 2.210665 0 0 0 2.514933 0.6 0 0 2.662665 0 0 0 3.277331 0 0 0 3.363631 0.594652 0 0 3.543795 0.000611 0 0 3.919366 0.6 0 0 4.086665 0.458214 -0.847501 -3.675256 4.210558 0.002875 0 0 4.378155 0.495016 0 0 4.496004 0 0 0</curve>
+                    <curve name="tBack" num_keys="29" owner="analysis">-0.022667 0 0 0 0.097867 0.398394 0 0 0.196 0 0 0 0.294 0 0 0 0.387055 0.398697 0 0 0.462667 0 0 0 0.594 0 0 0 0.684896 0.329623 0 0 0.746 0 0 0 1.344 0 0 0 1.729631 0.399917 0 0 1.815274 0.005094 0 0 1.894219 0.397699 0 0 2.079332 0 0 0 2.210665 0 0 0 2.278611 0.427408 0 0 2.329332 0 0 0 2.443999 0 0 0 2.525033 0.4 0 0 2.662665 0 0 0 3.260664 0 0 0 3.361668 0.394906 0 0 3.512664 0 0 0 3.793997 0 0 0 3.915295 0.4 0 0 3.979331 0 0 0 4.210667 0 0 0 4.315786 0.8 0 0 4.379336 0 0 0</curve>
+                    <curve name="tRoof" num_keys="35" owner="analysis">0.094 0 0 0 0.192627 0.796789 0 0 0.253333 0.521895 -4.528269 -3.124444 0.32 0.313599 -3.124444 -4.126297 0.396 0 0 0 0.460667 0 0 0 0.537725 0.759251 0 0 0.586667 0.404058 -7.257414 -3.023898 0.720288 0 0 0 0.943623 0.799481 0 0 1.395999 0 0 0 1.743999 0 0 0 1.815274 0.197453 0 0 1.895999 0 0 0 2.077332 0 0 0 2.140734 0.537386 0 0 2.212666 0 0 0 2.327332 0 0 0 2.453971 0.759876 0 0 2.512665 0 0 0 3.360664 0 0 0 3.512664 0.8 0 0 3.793997 0.8 0 0 3.915295 0 0 0 3.969997 0.740709 13.540799 3.248203 3.986544 0.794456 0 0 4.025157 0.699936 0 0 4.079332 0.8 0 0 4.110666 0.8 0 0 4.212667 0 0 0 4.327335 0 0 0 4.384602 0.395767 0 0 4.490391 0.001077 0 0 4.665985 0.798831 0 0 5.112679 0 0 0</curve>
+                    <curve name="tTeeth" num_keys="3" owner="analysis">-0.422667 0 0 0 -0.036651 0.9 0 0 0.096 0 0 0</curve>
+                    <curve name="Blink" num_keys="3" owner="analysis">1.817999 0 0 0 1.94696 0.993214 0 0 2.036666 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="9" owner="analysis">0.968 0 0 0 1.640985 -0.510307 0 0 1.776134 -0.351332 0 0 2.365152 -4.350268 0 0 3.553331 -0.350272 0 0 3.801331 -0.350272 0 0 4.003331 -0.218264 0 0 5.384683 -0.218264 0 0 5.886689 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="8" owner="analysis">0.968 0 0 0 1.936666 -3.123167 0 0 2.351332 -3.123166 0 0 3.319998 0 0 0 3.801331 0 0 0 4.003331 1.397567 0 0 5.384683 1.397567 0 0 5.886689 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="5" owner="analysis">0.968 0 0 0 2.365152 4.663986 0 0 3.553331 0.66399 0 0 5.384683 0.66399 0 0 5.886689 0 0 0</curve>
+                    <curve name="Head Roll" num_keys="4" owner="analysis">2.367999 0 0 0 3.319998 -0.494433 0 0 5.384683 -0.494433 0 0 5.886689 0 0 0</curve>
+                    <curve name="Head Yaw" num_keys="6" owner="analysis">0.968 0 0 0 1.936666 2.27308 0 0 2.351332 2.273079 0 0 3.319998 -0.899231 0 0 5.384683 -0.899231 0 0 5.886689 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="understood" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\understood.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\understood.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="AE" start="0" end="0.06" />
+                    <phoneme phoneme="IY" start="0.06" end="0.12" />
+                    <phoneme phoneme="M" start="0.12" end="0.17" />
+                    <phoneme phoneme="N" start="0.17" end="0.26" />
+                    <phoneme phoneme="AA" start="0.26" end="0.34" />
+                    <phoneme phoneme="T" start="0.34" end="0.38" />
+                    <phoneme phoneme="SH" start="0.38" end="0.51" />
+                    <phoneme phoneme="UH" start="0.51" end="0.56" />
+                    <phoneme phoneme="R" start="0.56" end="0.67" />
+                    <phoneme phoneme="SIL" start="0.67" end="0.7" />
+                    <phoneme phoneme="AE" start="0.7" end="0.755" />
+                    <phoneme phoneme="IY" start="0.755" end="0.81" />
+                    <phoneme phoneme="SIL" start="0.81" end="0.84" />
+                    <phoneme phoneme="AH" start="0.84" end="0.9" />
+                    <phoneme phoneme="N" start="0.9" end="0.93" />
+                    <phoneme phoneme="D" start="0.93" end="0.96" />
+                    <phoneme phoneme="EXR" start="0.96" end="1" />
+                    <phoneme phoneme="S" start="1" end="1.1" />
+                    <phoneme phoneme="T" start="1.1" end="1.17" />
+                    <phoneme phoneme="UH" start="1.17" end="1.23" />
+                    <phoneme phoneme="D" start="1.23" end="1.29" />
+                    <phoneme phoneme="Y" start="1.29" end="1.35" />
+                    <phoneme phoneme="UW" start="1.35" end="1.41" />
+                    <phoneme phoneme="K" start="1.41" end="1.49" />
+                    <phoneme phoneme="EXR" start="1.49" end="1.56" />
+                    <phoneme phoneme="EH" start="1.56" end="1.65" />
+                    <phoneme phoneme="K" start="1.65" end="1.69" />
+                    <phoneme phoneme="T" start="1.69" end="1.75" />
+                    <phoneme phoneme="L" start="1.75" end="1.79" />
+                    <phoneme phoneme="IY" start="1.79" end="1.98" />
+                    <phoneme phoneme="SIL" start="1.98" end="2.37" />
+                    <phoneme phoneme="K" start="2.37" end="2.44" />
+                    <phoneme phoneme="AH" start="2.44" end="2.48" />
+                    <phoneme phoneme="N" start="2.48" end="2.53" />
+                    <phoneme phoneme="Y" start="2.53" end="2.55" />
+                    <phoneme phoneme="UW" start="2.55" end="2.61" />
+                    <phoneme phoneme="S" start="2.61" end="2.72" />
+                    <phoneme phoneme="E" start="2.72" end="2.82" />
+                    <phoneme phoneme="DH" start="2.82" end="2.86" />
+                    <phoneme phoneme="AE" start="2.86" end="2.93" />
+                    <phoneme phoneme="T" start="2.93" end="2.94" />
+                    <phoneme phoneme="AH" start="2.94" end="2.99" />
+                    <phoneme phoneme="G" start="2.99" end="3.06" />
+                    <phoneme phoneme="EH" start="3.06" end="3.16" />
+                    <phoneme phoneme="N" start="3.16" end="3.25" />
+                    <phoneme phoneme="SIL" start="3.25" end="3.665625" />
+                </phonemes>
+                <words>
+                    <word start="0" end="0.17">I&apos;m</word>
+                    <word start="0.17" end="0.38">not</word>
+                    <word start="0.38" end="0.67">sure</word>
+                    <word start="0.7" end="0.81">I</word>
+                    <word start="0.84" end="1.29">understood</word>
+                    <word start="1.29" end="1.41">you</word>
+                    <word start="1.41" end="1.98">correctly</word>
+                    <word start="2.37" end="2.53">can</word>
+                    <word start="2.53" end="2.61">you</word>
+                    <word start="2.61" end="2.82">say</word>
+                    <word start="2.82" end="2.94">that</word>
+                    <word start="2.94" end="3.25">again</word>
+                </words>
+                <analysis_text>I&apos;m not sure I understood you correctly. can you say that again?</analysis_text>
+                <events>
+                    <event_group>
+                        <event group="PhraseEvents" anim="." id="0" duration_min="1.98" duration_max="1.98" />
+                    </event_group>
+                    <event_group>
+                        <event group="PhraseEvents" anim="?" id="1" start_min="2.37" start_max="2.37" duration_min="0.88" duration_max="0.88" />
+                    </event_group>
+                </events>
+                <event_take>
+                    <event group="PhraseEvents" anim="." id="0" template_parent_id="0" start_time="0" duration_scale="1.98" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                    <event group="PhraseEvents" anim="?" id="1" template_parent_id="1" start_time="2.37" duration_scale="0.88" magnitude_scale="1" blendin_time="0" blendout_time="0" />
+                </event_take>
+                <curves>
+                    <curve name="open" num_keys="35" owner="analysis">-0.422667 0 0 0 -0.037419 0.5 0 0 0.061654 0.00542 0 0 0.228527 0.545096 0 0 0.352286 0.000732 0 0 0.500401 0.479071 0 0 0.540942 0.387318 0 0 0.662443 0.5 0 0 0.72699 0.206987 0 0 0.81559 0.498032 0 0 0.925223 0.401968 0 0 0.959053 0.426433 0 0 1.041879 0.290136 0 0 1.146 0.4 0 0 1.460666 0.4 0 0 1.534634 0.499259 0 0 1.719999 0.224066 -1.484593 -0.392792 1.903332 0.152054 -0.392792 -0.558755 2.046287 0.072178 0 0 2.353332 0.472738 1.304563 1.810834 2.395999 0.55 0 0 2.460665 0.55 0 0 2.486665 0.479359 -2.716956 -2.132158 2.599433 0.238921 0 0 2.703332 0.360848 1.173518 3.187948 2.762665 0.55 0 0 2.877331 0.55 0 0 2.901005 0.513483 0 0 2.912665 0.55 0 0 2.960665 0.55 0 0 2.97642 0.548961 0 0 2.978435 0.549096 0 0 3.035292 0.500637 0 0 3.131829 0.549642 0 0 3.579331 0 0 0</curve>
+                    <curve name="W" num_keys="11" owner="analysis">0.344 0 0 0 0.475292 0.510698 0 0 0.546 0 0 0 0.927333 0 0 0 1.135306 0.549599 0 0 1.254659 0.004904 0 0 1.325469 0.55 0 0 1.462666 0 0 0 2.360665 0 0 0 2.51591 0.47135 0 0 2.612665 0 0 0</curve>
+                    <curve name="ShCh" num_keys="16" owner="analysis">0.227333 0 0 0 0.350888 0.84842 0 0 0.469391 0.028549 0 0 0.536049 0.470645 0 0 0.662667 0 0 0 0.810667 0 0 0 0.930609 0.496228 0 0 1.062666 0 0 0 1.144 0 0 0 1.254659 0.495541 0 0 1.325469 0 0 0 1.454672 0.496706 0 0 1.529333 0 0 0 2.410665 0 0 0 2.495471 0.105863 0 0 2.529332 0 0 0</curve>
+                    <curve name="PBM" num_keys="3" owner="analysis">-0.072667 0 0 0 0.061346 0.89251 0 0 0.229333 0 0 0</curve>
+                    <curve name="wide" num_keys="23" owner="analysis">-0.422667 0 0 0 -0.036788 0.6 0 0 0.062667 0 0 0 0.527334 0 0 0 0.72699 0.795342 0 0 0.836667 0.52428 -2.471467 -5.672043 0.927018 0.011806 0 0 0.977219 0.233334 0 0 1.146 0 0 0 1.460666 0 0 0 1.519999 0.56676 9.552138 0.970674 1.759776 0.799506 0 0 2.116411 0.194369 0 0 2.399489 0.599505 0 0 2.505584 0.033736 0 0 2.595423 0.414951 0 0 2.686248 0.25061 0 0 2.779332 0.8 0 0 2.843998 0.8 0 0 2.919998 0.515003 -3.749962 -11.280516 2.960777 0.055002 0 0 3.031955 0.59236 0 0 3.129331 0 0 0</curve>
+                    <curve name="tBack" num_keys="25" owner="analysis">-0.422667 0 0 0 -0.037556 0.4 0 0 0.062667 0 0 0 0.527334 0 0 0 0.664186 0.4 0 0 0.72699 0.009316 0 0 0.807453 0.393004 0 0 0.862667 0 0 0 1.327333 0 0 0 1.382106 0.464197 0 0 1.459545 0.009318 0 0 1.532569 0.394905 0 0 1.629333 0 0 0 1.943999 0 0 0 2.236665 0.580199 1.982457 3.704513 2.295999 0.8 0 0 2.360665 0.8 0 0 2.403332 0.402067 -9.32655 -5.290359 2.479332 0 0 0 2.793998 0 0 0 2.839433 0.14661 0 0 2.849038 0.137653 0 0 2.957772 0.726771 0 0 3.019998 0.419977 -4.930267 -3.841258 3.129331 0 0 0</curve>
+                    <curve name="tRoof" num_keys="35" owner="analysis">-0.022667 0 0 0 0.026134 0.039683 0 0 0.05545 0.005408 0 0 0.140798 0.566529 0 0 0.21878 0.033136 0 0 0.285914 0.767994 0 0 0.336667 0.439338 -6.47566 -2.757348 0.496 0 0 0 0.677334 0 0 0 0.72699 0.195342 0 0 0.761468 0.149966 0 0 0.868768 0.8 0 0 0.92889 0.51888 0 0 0.978055 0.681034 0 0 0.979045 0.679923 0 0 1.036804 0.79917 0 0 1.130109 0.513507 0 0 1.183065 0.685321 0 0 1.32774 0 0 0 1.466778 0.52584 0 0 1.516993 0.333747 0 0 1.632218 0.798531 0 0 1.803332 0.176678 -3.634132 -0.431623 2.212666 0 0 0 2.393999 0 0 0 2.45444 0.538035 0 0 2.522316 0.137218 0 0 2.594619 0.340968 0 0 2.719998 0.156804 -1.468853 -2.448219 2.781389 0.006505 0 0 2.866005 0.433333 0 0 2.929332 0 0 0 3.027331 0 0 0 3.141551 0.799479 0 0 3.579331 0 0 0</curve>
+                    <curve name="tTeeth" num_keys="3" owner="analysis">2.693998 0 0 0 2.786434 0.897064 0 0 2.862665 0 0 0</curve>
+                    <curve name="Blink" num_keys="3" owner="analysis">1.434666 0 0 0 1.560245 0.998363 0 0 1.653333 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="8" owner="analysis">0.684667 0 0 0 1.025048 -1.488065 0 0 1.081496 -1.394568 0 0 1.236666 -1.488501 0 0 1.984666 -1.488501 0 0 2.29165 -1.383234 0 0 2.551156 -3.665328 0 0 3.053331 0 0 0</curve>
+                    <curve name="Eye Yaw" num_keys="7" owner="analysis">0.684667 0 0 0 1.021094 -1.441801 0 0 1.081496 -1.267799 0 0 1.236666 -1.442007 0 0 2.301332 -1.442007 0 0 2.503332 0 0 0 3.053331 0 0 0</curve>
+                    <curve name="Eyebrow Raise" num_keys="6" owner="analysis">1.517999 0 0 0 1.794595 0.559615 0 0 2.269999 0 0 0 2.317999 0 0 0 2.552291 0.478535 0 0 2.936665 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="4" owner="analysis">1.984666 0 0 0 2.289742 -0.105267 0 0 2.551134 3.753067 0 0 3.053331 0 0 0</curve>
+                    <curve name="Head Roll" num_keys="3" owner="analysis">1.784666 0 0 0 2.587244 -0.354486 0 0 3.053331 0 0 0</curve>
+                </curves>
+            </animation>
+            <animation name="visit" frame_rate="24" language="USEnglish" analysis_actor="Default" audio_path="..\..\..\AndroidProject\audiofiles\visit.wav" audio_path_full="C:\Users\Emmanuel\Desktop\AndroidProject\audiofiles\visit.wav">
+                <preview_anim />
+                <phonemes>
+                    <phoneme phoneme="AE" start="0" end="0.04" />
+                    <phoneme phoneme="IY" start="0.04" end="0.08" />
+                    <phoneme phoneme="W" start="0.08" end="0.14" />
+                    <phoneme phoneme="UH" start="0.14" end="0.19" />
+                    <phoneme phoneme="D" start="0.19" end="0.26" />
+                    <phoneme phoneme="L" start="0.26" end="0.31" />
+                    <phoneme phoneme="AH" start="0.31" end="0.38" />
+                    <phoneme phoneme="V" start="0.38" end="0.43" />
+                    <phoneme phoneme="T" start="0.43" end="0.51" />
+                    <phoneme phoneme="UH" start="0.51" end="0.57" />
+                    <phoneme phoneme="V" start="0.57" end="0.63" />
+                    <phoneme phoneme="IH" start="0.63" end="0.69" />
+                    <phoneme phoneme="Z" start="0.69" end="0.75" />
+                    <phoneme phoneme="IH" start="0.75" end="0.81" />
+                    <phoneme phoneme="T" start="0.81" end="0.86" />
+                    <phoneme phoneme="DH" start="0.86" end="0.9" />
+                    <phoneme phoneme="IY" start="0.9" end="0.96" />
+                    <phoneme phoneme="Y" start="0.96" end="1.04" />
+                    <phoneme phoneme="UW" start="1.04" end="1.08" />
+                    <phoneme phoneme="N" start="1.08" end="1.14" />
+                    <phoneme phoneme="AE" start="1.14" end="1.2" />
+                    <phoneme phoneme="IY" start="1.2" end="1.26" />
+                    <phoneme phoneme="FLAP" start="1.26" end="1.3" />
+                    <phoneme phoneme="IH" start="1.3" end="1.39" />
+                    <phoneme phoneme="D" start="1.39" end="1.43" />
+                    <phoneme phoneme="S" start="1.43" end="1.51" />
+                    <phoneme phoneme="T" start="1.51" end="1.55" />
+                    <phoneme phoneme="E" start="1.55" end="1.76" />
+                    <phoneme phoneme="T" start="1.76" end="1.82" />
+                    <phoneme phoneme="S" start="1.82" end="1.98" />
+                    <phoneme phoneme="SIL" start="1.98" end="2.478937" />
+                </phonemes>
+                <words>
+                    <word start="0" end="0.08">I</word>
+                    <word start="0.08" end="0.26">would</word>
+                    <word start="0.26" end="0.43">love</word>
+                    <word start="0.43" end="0.57">to</word>
+                    <word start="0.57" end="0.86">visit</word>
+                    <word start="0.86" end="0.96">the</word>
+                    <word start="0.96" end="1.43">United</word>
+                    <word start="1.43" end="1.98">States</word>
+                </words>
+                <analysis_text>I would love to visit the United States</analysis_text>
+                <events />
+                <event_take />
+                <curves>
+                    <curve name="open" num_keys="28" owner="analysis">-0.422667 0 0 0 -0.13 0.306033 1.045669 1.336316 -0.034825 0.433216 0 0 0.048471 0.002697 0 0 0.103333 0.301486 5.446129 0.674263 0.167941 0.345048 0 0 0.286667 0.258426 -0.7296 -6.926584 0.32 0.02754 -6.926584 -1.283309 0.340776 0.000878 0 0 0.470599 0.150649 0 0 0.520937 0 0 0 0.586667 0.383096 5.828329 1.776932 0.62 0.442327 1.776932 0.328735 0.697958 0.467954 0 0 0.812942 0.450293 0 0 0.851339 0.485186 0 0 0.904284 0.375318 0 0 0.929333 0.4 0 0 1.010666 0.4 0 0 1.101234 0.498726 0 0 1.173634 0.2 0 0 1.271412 0.5 0 0 1.401775 0.150454 0 0 1.525455 0.35 0 0 1.785607 0.150091 0 0 1.939959 0.3304 0 0 2.136666 0.155078 -0.891286 -0.597987 2.395999 0 0 0</curve>
+                    <curve name="W" num_keys="10" owner="analysis">-0.106 0 0 0 0.046 0.85 0 0 0.094 0.85 0 0 0.153333 0.36259 -8.214774 -2.289814 0.311683 0 0 0 0.470599 0.207142 0 0 0.512667 0 0 0 0.927333 0 0 0 1.010952 0.539178 0 0 1.112666 0 0 0</curve>
+                    <curve name="ShCh" num_keys="3" owner="analysis">0.827333 0 0 0 0.92867 0.490162 0 0 1.012666 0 0 0</curve>
+                    <curve name="FV" num_keys="6" owner="analysis">0.110667 0 0 0 0.312667 0.75 0 0 0.444 0.75 0 0 0.48362 0.728113 0 0 0.51554 0.75 0 0 0.646 0 0 0</curve>
+                    <curve name="wide" num_keys="20" owner="analysis">-0.422667 0 0 0 -0.13 0.371005 1.267672 3.461678 -0.028677 0.721752 0 0 0.046 0 0 0 0.077333 0 0 0 0.270033 0.315457 0 0 0.329334 0 0 0 0.527334 0 0 0 0.607996 0.489824 0 0 0.818973 0.002699 0 0 0.872767 0.305185 0 0 0.929333 0 0 0 1.010666 0 0 0 1.086666 0.517243 6.805832 3.251309 1.173634 0.8 0 0 1.253333 0.614815 -2.323538 -0.8 1.419999 0.481482 -0.8 -2.195071 1.525455 0.25 0 0 1.790673 0.499887 0 0 2.212666 0 0 0</curve>
+                    <curve name="tBack" num_keys="17" owner="analysis">-0.422667 0 0 0 -0.037865 0.288889 0 0 0.029333 0 0 0 0.194 0 0 0 0.276993 0.204766 0 0 0.329334 0 0 0 0.527334 0 0 0 0.598442 0.32384 0 0 0.66146 0.011205 0 0 0.717744 0.168 0 0 0.762667 0 0 0 1.010666 0 0 0 1.106055 0.395062 0 0 1.162666 0 0 0 1.210666 0 0 0 1.27025 0.2708 0 0 1.329333 0 0 0</curve>
+                    <curve name="tRoof" num_keys="26" owner="analysis">-0.139333 0 0 0 -0.000337 0.086706 0 0 0.034626 0.036658 0 0 0.168668 0.786873 0 0 0.236667 0.641625 -2.136042 -8.553943 0.311676 0 0 0 0.376655 0.305185 0 0 0.512667 0 0 0 0.577334 0 0 0 0.636667 0.332343 5.601287 2.9435 0.74874 0.662229 0 0 0.828265 0.0286 0 0 0.925897 0.39625 0 0 1.004801 0.007871 0 0 1.053333 0.380307 0 0 1.111432 0.01316 0 0 1.226946 0.501783 0 0 1.267308 0.347867 0 0 1.332452 0.793474 0 0 1.372769 0.701501 0 0 1.437369 0.8 0 0 1.525928 0.2 0 0 1.697289 0.798395 0 0 1.786666 0.401606 -4.439527 -0.67587 1.936666 0.300226 -0.67587 -0.970558 2.245999 0 0 0</curve>
+                    <curve name="tTeeth" num_keys="3" owner="analysis">0.727333 0 0 0 0.828818 0.880982 0 0 0.912667 0 0 0</curve>
+                    <curve name="Blink" num_keys="3" owner="analysis">2.251332 0 0 0 2.374302 1. 0 0 2.453332 0 0 0</curve>
+                    <curve name="Eye Pitch" num_keys="3" owner="analysis">0.334667 0 0 0 0.633886 -2.399405 0 0 1.203333 0 0 0</curve>
+                    <curve name="Eyebrow Raise" num_keys="3" owner="analysis">0.418 0 0 0 0.633358 0.385354 0 0 1.003333 0 0 0</curve>
+                    <curve name="Head Pitch" num_keys="3" owner="analysis">0.334667 0 0 0 0.633886 2.399405 0 0 1.203333 0 0 0</curve>
+                </curves>
+            </animation>
+        </animation_group>
+    </animation_groups>
+</actor>

@@ -1,0 +1,64 @@
+material "Slade_TeethTongueEyes"
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 1 1 1 1
+			specular 0 0 0 3
+
+			texture_unit
+			{
+				texture E-T-T.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+
+fragment_program /FaceFX_Studio_Examples/add_color cg
+{
+	source add_color.cg
+	entry_point add_color_fp
+	profiles ps_2_0 arbfp1 fp20
+	param_named red float 0
+	param_named green float 0
+	param_named blue float 0
+}
+
+material "Slade_Face_and_MouthBack"
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235 1
+			diffuse 1 1 1 1
+			specular 0.09 0.09 0.09 6
+			
+			texture_unit
+			{
+				texture Face_flattened.jpg
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+		
+		pass add_color
+		{
+			scene_blend add
+			
+			fragment_program_ref /FaceFX_Studio_Examples/add_color
+			{
+			}
+		}
+	}
+}

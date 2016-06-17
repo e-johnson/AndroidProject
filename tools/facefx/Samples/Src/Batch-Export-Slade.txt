@@ -1,0 +1,74 @@
+//*************************************************************
+// The standard FaceFX Batch File 
+//
+// This file associates frame numbers with pose names. Set your
+// character up with these poses to get started with FaceFX
+// quickly.  
+//
+// This file is used by default on FBX files with "facefx_poses" 
+// in the name.
+// 
+// Format Specifications:
+//    1) Pose names with spaces nust have quotes.
+//    2) A single space is in between the name and frame number
+//*************************************************************
+
+// ------------------------------------------------------------
+// Always set up characters with the Rest Pose at frame 0.   
+// Specifying the pose here is not required, but can be 
+// convenient for importing poses to Max/Maya/XSI.
+// ------------------------------------------------------------
+// "Rest Pose" 0
+
+// ------------------------------------------------------------
+// Speech Targets - These are the most important poses.
+// ------------------------------------------------------------
+open 10
+W 20
+ShCh 30
+PBM 40
+FV 50
+wide 60
+
+// ------------------------------------------------------------
+// Tongue poses.  Only the tongue moves.  Optional.
+// ------------------------------------------------------------
+tBack 70
+tRoof 80
+tTeeth 90
+
+// ------------------------------------------------------------
+// Basic Gestures.  Useful for adding some life to the chacter.
+// ------------------------------------------------------------
+Blink 100
+"Eyebrow Raise" 110 
+Squint 120
+
+// ------------------------------------------------------------
+// 30 degree Head And Eye Rotations.  
+// Head_Pitch_Pos makes the head nod down "Yes".
+// Head_Yaw_Pos makes the head shake left "No".
+// Head Roll tilts the head right on the 3rd axis.
+// ------------------------------------------------------------
+Head_Pitch_Pos 130
+Head_Yaw_Pos 140
+Head_Roll_Pos 150
+Eyes_Pitch_Pos 160
+Eyes_Yaw_Pos 170
+Head_Pitch_Neg 180
+Head_Yaw_Neg 190
+Head_Roll_Neg 200
+Eyes_Pitch_Neg 210
+Eyes_Yaw_Neg 220
+
+// ------------------------------------------------------------
+// Eyelid poses make the eyelids realistic when looking around
+// ------------------------------------------------------------
+Eyes_Pitch_Pos_Lids 230
+Eyes_Yaw_Pos_Lids 240
+Eyes_Pitch_Neg_Lids 250
+Eyes_Yaw_Neg_Lids 260
+
+
+
+

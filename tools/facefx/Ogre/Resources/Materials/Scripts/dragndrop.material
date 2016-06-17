@@ -1,0 +1,15 @@
+material dragndrop_material
+{
+   technique
+   {
+      pass
+      {
+         scene_blend alpha_blend
+
+         texture_unit
+         {
+            texture dragndrop.png
+         }
+      }
+   }
+}

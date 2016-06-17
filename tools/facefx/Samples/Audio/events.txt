@@ -1,0 +1,1 @@
+Events are referenced animations contained inside a parent animation.  The event template defines everything that can happen, while the event take is the actual animation that is played.  Each time you create a new take, different child events are spawned based on their probabilities, and different values are selected for the property ranges.

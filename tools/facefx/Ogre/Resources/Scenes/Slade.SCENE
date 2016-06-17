@@ -1,0 +1,64 @@
+<scene formatVersion="1.0" minOgreVersion="1.4" author="FxOgreMaxExporter">
+    <nodes>
+        <node name="Slade" id="7" isTarget="false">
+            <position x="0.000000" y="0.000000" z="0.000000" />
+            <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <entity name="Slade" id="7" meshFile="Slade.MESH" castShadows="true" receiveShadows="true" />
+        </node>
+        <node name="Omni0Shape1" id="5" isTarget="false">
+            <position x="22.136789" y="33.746368" z="69.138832" />
+            <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <light name="Omni0Shape1" id="5" type="point" castShadows="false">
+                <normal x="0.000000" y="0.000000" z="-1.000000" />
+                <colourDiffuse r="0.976471" g="0.972549" b="1.000000" />
+                <colourSpecular r="0.781177" g="0.778039" b="0.800000" />
+                <lightAttenuation range="0.000000" constant="0.000000" linear="0.000000" quadratic="0.000000" />
+            </light>
+        </node>
+        <node name="spotLightShape1" id="6" isTarget="false">
+            <position x="0.000000" y="0.000000" z="-41.132683" />
+            <rotation qx="0.984150" qy="0.000000" qz="0.000000" qw="0.177338" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <light name="spotLightShape1" id="6" type="spot" castShadows="false">
+                <normal x="0.000000" y="0.000000" z="-1.000000" />
+                <colourDiffuse r="1.000000" g="1.000000" b="1.000000" />
+                <colourSpecular r="1.000000" g="1.000000" b="1.000000" />
+                <lightRange inner="0.000000" outer="0.698132" falloff="0.000000" />
+            </light>
+        </node>
+        <node name="perspShape" id="1" isTarget="false">
+            <position x="-48.598797" y="18.968052" z="45.543858" />
+            <rotation qx="0.006699" qy="0.474074" qz="0.003607" qw="-0.880452" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <camera name="perspShape" id="1" fov="0.950022">
+                <clipping near="0.001000" far="100000.000000" />
+            </camera>
+        </node>
+        <node name="topShape" id="2" isTarget="false">
+            <position x="0.000000" y="100.000000" z="0.000000" />
+            <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <camera name="topShape" id="2" fov="0.950022">
+                <clipping near="0.001000" far="100000.000000" />
+            </camera>
+        </node>
+        <node name="frontShape" id="3" isTarget="false">
+            <position x="0.000000" y="0.000000" z="100.000000" />
+            <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <camera name="frontShape" id="3" fov="0.950022">
+                <clipping near="0.001000" far="100000.000000" />
+            </camera>
+        </node>
+        <node name="sideShape" id="4" isTarget="false">
+            <position x="100.000000" y="18.620699" z="14.883168" />
+            <rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107" />
+            <scale x="1.000000" y="1.000000" z="1.000000" />
+            <camera name="sideShape" id="4" fov="0.950022">
+                <clipping near="0.001000" far="100000.000000" />
+            </camera>
+        </node>
+    </nodes>
+</scene>

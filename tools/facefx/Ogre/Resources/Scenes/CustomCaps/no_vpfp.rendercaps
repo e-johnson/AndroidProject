@@ -1,0 +1,8 @@
+render_system_capabilities "no_vpfp"
+{
+     render_system_name OpenGL Rendering Subsystem
+	 
+	 vertex_program false
+     fragment_program false
+     num_texture_units 2
+}

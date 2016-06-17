@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------------
+// This is the autoexec.fxl file.  It resides in the same directory as
+// FaceFX Studio.  Commands in this file will be executed when
+// FxStudio.exe is run.
+//
+// You can also create FXL files that are run whenever you open a
+// specific .facefx file.  Simply put the FXL file in the directory as 
+// the .facefx file, and give it the same name.
+//
+// See the online documentation for the .clientspec file if you want a
+// system that works better with source control.
+// -----------------------------------------------------------------------------------
+
+// Run the FaceFX Python initialization script.
+exec -f "facefxinit.py"
+
+// Tells FaceFX to use Direct Sound instead of OpenAL to play sound.
+// OpenAL sounds better when scrubbing, but may cause crashes if
+// you don't have the latest sound drivers installed along with the latest
+// version of OpenAL:
+// www.oc3ent.com/downloads/OpenALwEAX.exe
+// Comment this line out if you would prefer to use OpenAL.
+set -name "g_audiosystem" -v "directsound";
+
+// Uncomment if you want FaceFX to attempt to analyze WAV files shorter
+// than half a second or longer than 90 seconds.  Please be aware that 
+// we can not guarantee results for files that are too long or too short.
+//set -n "a_audiomin" -v "0.1";
+//set -n "a_audiomax" -v "120";
+
+// Prints a message to the log.
+print -message "autoexec.fxl file executed";

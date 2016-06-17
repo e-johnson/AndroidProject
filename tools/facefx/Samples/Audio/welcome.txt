@@ -1,0 +1,1 @@
+Welcome to Face Ef Ex Studio.  Change the animation group from the {"EventDemo|HeadFollowsEyesPitch" magnitude=-10} toolbar above for {"EventDemo|HeadFollowsEyesPitch" magnitude=0} additional sample animations.

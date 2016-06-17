@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bml>
+    <speech end="0.2" id="sp1" ready="0.1" relax="0.2" start="0.0" stroke="0.1">
+        <text>
+            <sync id="T0" time="0.030"/>alright
+            <sync id="T1" time="1.780"/>
+            <sync id="T2" time="1.780"/>have
+            <sync id="T3" time="1.880"/>
+            <sync id="T4" time="1.880"/>a
+            <sync id="T5" time="1.980"/>
+            <sync id="T6" time="1.980"/>good
+            <sync id="T7" time="2.080"/>
+            <sync id="T8" time="2.080"/>day
+            <sync id="T9" time="2.180"/>
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="goodday"/>
+        </description>
+    </speech>
+    <lips articulation="1.0" end="0.2" ready="0.13" relax="0.2" start="0.13" viseme="Ao"/>
+    <lips articulation="1.0" end="0.24" ready="0.2" relax="0.24" start="0.2" viseme="L"/>
+    <lips articulation="1.0" end="0.36" ready="0.24" relax="0.36" start="0.24" viseme="R"/>
+    <lips articulation="1.0" end="1.78" ready="0.36" relax="1.78" start="0.36" viseme="Ay"/>
+    <curves>
+        <curve name="Aa" num_keys="0.0" owner="analysis"/>
+        <curve name="Eh" num_keys="0.0" owner="analysis"/>
+        <curve name="BMP" num_keys="0.0" owner="analysis"/>
+        <curve name="D" num_keys="0.0" owner="analysis"/>
+        <curve name="F" num_keys="0.0" owner="analysis"/>
+        <curve name="Ah" num_keys="0.0" owner="analysis"/>
+        <curve name="Ow" num_keys="0.0" owner="analysis"/>
+        <curve name="Oy" num_keys="0.0" owner="analysis"/>
+        <curve name="L" num_keys="4.0" owner="analysis">0.2 0.0 0.0 0.0 0.20400000000000001 1.0 0.0 0.0 0.236 1.0 0.0 0.0 0.24 0.0 0.0 0.0</curve>
+        <curve name="Er" num_keys="0.0" owner="analysis"/>
+        <curve name="Ao" num_keys="4.0" owner="analysis">0.13 0.0 0.0 0.0 0.137 1.0 0.0 0.0 0.193 1.0 0.0 0.0 0.2 0.0 0.0 0.0</curve>
+        <curve name="R" num_keys="4.0" owner="analysis">0.24 0.0 0.0 0.0 0.252 1.0 0.0 0.0 0.348 1.0 0.0 0.0 0.36 0.0 0.0 0.0</curve>
+        <curve name="Th" num_keys="0.0" owner="analysis"/>
+        <curve name="Sh" num_keys="0.0" owner="analysis"/>
+        <curve name="W" num_keys="0.0" owner="analysis"/>
+        <curve name="Ay" num_keys="4.0" owner="analysis">0.36 0.0 0.0 0.0 0.502 1.0 0.0 0.0 1.6380000000000001 1.0 0.0 0.0 1.78 0.0 0.0 0.0</curve>
+        <curve name="Z" num_keys="0.0" owner="analysis"/>
+        <curve name="Kg" num_keys="0.0" owner="analysis"/>
+        <curve name="_" num_keys="0.0" owner="analysis"/>
+        <curve name="Ih" num_keys="0.0" owner="analysis"/>
+    </curves>
+</bml>

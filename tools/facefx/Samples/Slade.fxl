@@ -1,0 +1,16 @@
+// -------------------------------------------------------------------------------------------------
+// This script gets called whenever the Slade.facefx file is opened.
+// Whenever an .facefx file is opened, the directory is searched for an 
+// .FXL file with the same name.  If a corresponding FXL file is found 
+// by FaceFX Studio, the commands in the file are executed 
+// immediately after opening the file.
+// -------------------------------------------------------------------------------------------------
+
+// Call a Python script to selectively do some stuff based on the Studio version.
+exec -f "Slade.py"
+
+// Select the welcome animation.
+select -type "animgroup" -names "Default";
+select -type "anim" -names "welcome";
+
+print -message "Slade.fxl file executed"

@@ -1,0 +1,3 @@
+exec -f "Exo.py"
+
+print -message "Exo.fxl file executed"

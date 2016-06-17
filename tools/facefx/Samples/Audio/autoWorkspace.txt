@@ -1,0 +1,2 @@
+The auto workspace feature automatically creates sliders over your character for the 
+selected curves and nodes.

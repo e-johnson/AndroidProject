@@ -1,0 +1,9 @@
+
+// Outputs the color specified by the red, green, and blue parameters.
+void add_color_fp( out float4 color : COLOR,
+				   uniform float4 red,
+				   uniform float4 green,
+				   uniform float4 blue)
+{
+	color = float4(red.x, green.x, blue.x, 1);
+}

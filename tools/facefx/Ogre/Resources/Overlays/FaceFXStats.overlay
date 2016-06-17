@@ -1,0 +1,232 @@
+
+FaceFX/StatsOverlay
+{
+	zorder 500
+
+	// Console input
+	container BorderPanel(FaceFX/ConsolePanel)
+	{
+		metrics_mode pixels
+		vert_align top
+		horz_align left
+		left 5
+		top 0
+		width 220
+		height 544
+
+		element TextArea(FaceFX/ConsoleOutput)
+		{
+			metrics_mode pixels
+			left 5
+			top 0
+			width 210
+			height 512
+			font_name BlueHighway
+			char_height 16
+			caption OUTPUT
+			colour_top 0.4 0.6 0.7
+			colour_bottom 0.4 0.6 0.7
+		}
+
+		element Panel(FaceFX/ConsoleDivider)
+		{
+			metrics_mode pixels
+			left 0
+			top 518
+			width 9000
+			height 1
+			material Core/StatsBreak
+		}
+
+		element TextArea(FaceFX/ConsoleInput)
+		{
+			metrics_mode pixels
+			left 5
+			top 528
+			width 210
+			height 16
+			font_name BlueHighway
+			char_height 16
+			caption COMMAND:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+	}
+
+	// Stats block
+	container BorderPanel(FaceFX/MemStatsPanel)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align left
+		left 5
+		top -102
+		width 220
+		height 102
+
+		element TextArea(FaceFX/OutstandingAllocs)
+		{
+			metrics_mode pixels
+			left 5
+			top 25
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption AVERAGE FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/OutstandingBytes)
+		{
+			metrics_mode pixels
+			left 5
+			top 40
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption AVERAGE FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/TotalAllocs)
+		{
+			metrics_mode pixels
+			left 5
+			top 55
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption WORST FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/TotalFrees)
+		{
+			metrics_mode pixels
+			left 5
+			top 70
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption BEST FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/TotalBytes)
+		{
+			metrics_mode pixels
+			left 5
+			top 85
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption Triangle Count:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+	}
+	container BorderPanel(FaceFX/RenderStatsPanel)
+	{
+		metrics_mode pixels
+		vert_align bottom
+		horz_align right
+		left -225
+		top -102
+		width 220
+		height 102
+
+		element Panel(FaceFX/RenderStatsBreakPanel)
+		{
+			metrics_mode pixels
+			left 5
+			top 22
+			width 210
+			height 1
+			material Core/StatsBreak
+		}
+
+		element TextArea(FaceFX/CurrFps)
+		{
+			metrics_mode pixels
+			left 5
+			top 5
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 19
+			caption Current FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/AverageFps)
+		{
+			metrics_mode pixels
+			left 5
+			top 25
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption AVERAGE FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/WorstFps)
+		{
+			metrics_mode pixels
+			left 5
+			top 40
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption WORST FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/BestFps)
+		{
+			metrics_mode pixels
+			left 5
+			top 55
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption BEST FPS:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/NumTris)
+		{
+			metrics_mode pixels
+			left 5
+			top 70
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			caption Triangle Count:
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+		element TextArea(FaceFX/DebugText)
+		{
+			metrics_mode pixels
+			left 5
+			top 85
+			width 90
+			height 30
+			font_name BlueHighway
+			char_height 16
+			colour_top 0.3 1.0 0.3
+			colour_bottom 0.3 1.0 0.3
+		}
+	}
+}
+

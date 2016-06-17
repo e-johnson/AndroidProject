@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist>
+<dict>
+<key>question_format</key>
+<string>edu.usc.ict.npc.editor.model.processor.text.TextProcessorProvider</string>
+<key>recordingQuestions</key>
+<false/>
+<key>reportGeneratorProvider</key>
+<dict>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.model.report.ReportGeneratorProvider</string>
+</dict>
+<key>trainingOnTestQuestions</key>
+<false/>
+<key>questions</key>
+<array>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2012-09-12T17:02:39Z</date>
+<key>tokens</key>
+<array>
+<integer>32</integer>
+</array>
+<key>ID</key>
+<string>Anybody-2</string>
+<key>text</key>
+<string>Hello robot
+</string>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T08:58:17Z</date>
+<key>tokens</key>
+<array>
+<integer>32</integer>
+</array>
+<key>ID</key>
+<string>Anybody-3</string>
+<key>text</key>
+<string>Ok, Ando, how are you? </string>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T08:58:49Z</date>
+<key>tokens</key>
+<array>
+<integer>32</integer>
+</array>
+<key>ID</key>
+<string>Anybody-5</string>
+<key>text</key>
+<string>I have enjoyed Japan</string>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:01:12Z</date>
+<key>tokens</key>
+<array>
+<integer>32</integer>
+</array>
+<key>ID</key>
+<string>Anybody-6</string>
+<key>text</key>
+<string>Ok, Let's see what we can do</string>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:01:29Z</date>
+<key>tokens</key>
+<array>
+<integer>32</integer>
+</array>
+<key>ID</key>
+<string>Anybody-7</string>
+<key>text</key>
+<string>ok great</string>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:02:06Z</date>
+<key>tokens</key>
+<array>
+<integer>32</integer>
+</array>
+<key>ID</key>
+<string>Anybody-8</string>
+<key>text</key>
+<string>you should visit the United States one day</string>
+</dict>
+</array>
+<key>answers</key>
+<array>
+<dict>
+<key>speaker</key>
+<integer>1</integer>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2015-06-08T09:55:59Z</date>
+<key>tokens</key>
+<array>
+<integer>33</integer>
+<integer>31</integer>
+<integer>57</integer>
+<integer>36</integer>
+<integer>27</integer>
+</array>
+<key>ID</key>
+<string>please</string>
+<key>text</key>
+<string>Please, Emmanuel call me ando</string>
+<key>script</key>
+<string></string>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:14:38Z</date>
+<key>tokens</key>
+<array>
+<integer>33</integer>
+<integer>31</integer>
+<integer>57</integer>
+<integer>35</integer>
+</array>
+<key>ID</key>
+<string>talk_soon</string>
+<key>text</key>
+<string>That sounds great! I have to go now, but let's talk soon</string>
+<key>speaker</key>
+<integer>1</integer>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:15:10Z</date>
+<key>tokens</key>
+<array>
+<integer>33</integer>
+<integer>57</integer>
+<integer>31</integer>
+<integer>35</integer>
+</array>
+<key>ID</key>
+<string>stay_japan</string>
+<key>text</key>
+<string>I am doing well, thanks for asking. How is your stay in Japan?</string>
+<key>speaker</key>
+<integer>1</integer>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:16:22Z</date>
+<key>tokens</key>
+<array>
+<integer>33</integer>
+<integer>31</integer>
+<integer>57</integer>
+<integer>35</integer>
+</array>
+<key>ID</key>
+<string>visit</string>
+<key>text</key>
+<string>I would love to visit the United States</string>
+<key>speaker</key>
+<integer>1</integer>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:16:56Z</date>
+<key>tokens</key>
+<array>
+<integer>33</integer>
+<integer>31</integer>
+</array>
+<key>ID</key>
+<string>good</string>
+<key>text</key>
+<string>That's good</string>
+<key>speaker</key>
+<integer>1</integer>
+</dict>
+<dict>
+<key>count</key>
+<real>1.0</real>
+<key>modified</key>
+<date>2016-06-12T09:17:33Z</date>
+<key>tokens</key>
+<array>
+<integer>33</integer>
+<integer>31</integer>
+<integer>57</integer>
+</array>
+<key>ID</key>
+<string>goodday</string>
+<key>text</key>
+<string>Alright, have a good day!</string>
+<key>speaker</key>
+<integer>1</integer>
+</dict>
+</array>
+<key>answer_format</key>
+<string>edu.usc.ict.npc.editor.model.processor.text.TextProcessorProvider</string>
+<key>version</key>
+<integer>4</integer>
+<key>keepingLinkEstimatesUpdated</key>
+<false/>
+<key>searcherSessions</key>
+<array>
+<dict>
+<key>param</key>
+<string>0.9914341435185184 0.884837962962963 0.7767024305555555 0.669336574074074 0.10376157407407408 0.05055347222222223 -1.1967379450798035</string>
+<key>aid</key>
+<integer>1</integer>
+</dict>
+</array>
+<key>dialog_manager</key>
+<dict>
+<key>param</key>
+<dict>
+<key>storedScriptFileName</key>
+<string>0file:/C:/vhtoolkit/data/classifier/brachel.plist</string>
+<key>scriptEngineName</key>
+<string>groovy</string>
+<key>useScriptFile</key>
+<false/>
+<key>scriptText</key>
+<string>// ============================================================================
+// dm.java
+// ============================================================================
+//
+//  Created by leuski on Aug 22, 2009.
+//  Copyright (c) 2009 Anton Leuski. All rights reserved.
+//
+// ============================================================================
+
+
+package edu.usc.ict.npc.editor.dialog.script.dm;
+
+import edu.usc.ict.npc.editor.dialog.script.*
+import java.awt.event.ActionListener
+import java.awt.event.ActionEvent;
+import javax.swing.Timer;
+
+class Global implements ActionListener {
+
+	public final static String	kConceal		= "conceal";
+	public final static String	kUnknown		= "unknown";
+	public final static String	kOpaque			= "opaque";
+	public final static String	kAlternative	= "alternative";
+	public final static String	kRepeat			= "repeat";
+	public final static String	kPrompt			= "prompt";
+
+	final static String kCharacterIgnore		= 'ignore';
+	final static Event	kInitiativeTimerEvent	= new Event(Event.kDispatchHint, "dm_prompt");
+	public final static int		kHistoryWindow			= 10;
+	final static double	kWaitBeforePrompt		= 5; // seconds
+	
+	public static String kFacingCharacter		= "none";
+	
+
+	Engine	engine;
+	String	domainName = null;	
+
+	Regular		regularState;
+	State		currentState;
+	Interrupted interrupted;
+	IdentifyAddressee addressee = null;
+
+	Map&lt;String,Object&gt;		lastUtterance;
+	Event 					lastSpeechEvent;
+	boolean					microphoneEnabled;
+	long					lastUserStartedSpeaking;
+	long					lastUserStoppedSpeaking;
+	long					lastCharacterStoppedSpeaking;
+	long					lastCharacterStartedSpeaking;
+
+	Global(Engine inEngine) {
+		engine = inEngine;
+	}
+
+	public Set getPresentCharacters() {
+		return (Set)engine.context.presentCharacters;
+	}
+
+	public void reset() {
+		engine.reset();		
+
+		// initialize global variables here
+		
+
+		clear();
+
+		regularState	= new Regular(this);
+		interrupted		= new Interrupted(this);
+		addressee = new IdentifyAddressee(this);
+
+		enterState(regularState);
+	}
+
+	public void actionPerformed(ActionEvent e) {
+		Timer	thisTimer	= (Timer)e.getSource();
+		if (engine.context.initiativeTimer != thisTimer) {
+			thisTimer.stop();
+			return;
+		}
+		engine?.postEvent(kInitiativeTimerEvent);
+	}
+
+	public void clear() {
+		engine.context.presentCharacters	= new HashSet();
+		lastUtterance	= null;
+		lastSpeechEvent	= null;
+
+		Timer	timer	= new Timer(1000, this);	// This timer will periodically trigger executor events 
+		timer.setRepeats(true);
+		timer.start();
+		engine.context.initiativeTimer = timer;
+	}
+
+	public void setMicrophoneEnabled(boolean inEnabled) {
+		if (microphoneEnabled == inEnabled) return;
+		microphoneEnabled	= inEnabled;
+		engine.send(inEnabled ? "TO_ASR &lt;start id=\"temp\"&gt;" : "TO_ASR &lt;stop id=\"temp\"&gt;");
+	}
+
+	public void exitState(State inTarget) {
+		inTarget?.onexit();
+		engine.removeTrigger(inTarget);
+	}
+
+	public void enterState(State inTarget) {
+		currentState	= inTarget;
+		engine.addTrigger(inTarget);
+		inTarget?.onentry();
+	}
+
+	public void transitionTo(State inTarget) {
+		exitState(currentState);
+		enterState(inTarget);
+	}
+}
+
+Global	global			= new Global(engine);
+
+public class State implements Trigger {
+
+	Global 		global;
+
+	Engine		getEngine() 				{ return global.engine; }	
+
+	State(Global inGlobal) {
+		global	= inGlobal;
+		global.setMicrophoneEnabled(true);
+		global.setMicrophoneEnabled(false);
+	}
+
+	public boolean handle(Event event) {
+
+//		System.out.println(event);
+
+		return false;
+	}
+
+	public boolean npcBehavior_done(Event event) {
+		global.lastCharacterStoppedSpeaking	= System.currentTimeMillis();
+		if (event?.utterance?.toss)
+			return handleToss(event);
+		return false;
+	}
+
+	public boolean handleToss(Event event) {
+		global.domainName 	= event.utterance.toss;
+		global.lastSpeechEvent	= null;
+//		System.out.println("Toss to " + global.domainName);
+		return false;
+	}
+
+	public boolean npcBehavior_begin(Event event) {
+		global.lastCharacterStartedSpeaking	= System.currentTimeMillis();
+		return false;
+	}
+	
+	public boolean vrSpeech_partial(Event inEvent) { return false; }
+
+	public boolean vrSpeech_start(Event event) {
+		global.lastUserStartedSpeaking	= System.currentTimeMillis();
+		return false;
+	}
+
+	public boolean vrSpeech_finished_speaking(Event event) {
+		global.lastUserStoppedSpeaking	= System.currentTimeMillis();
+		return false;
+	}
+
+	public boolean dm_prompt(Event event) {
+//		long currentTime	= System.currentTimeMillis();
+//
+//		if (global.lastCharacterStartedSpeaking &lt; global.lastCharacterStoppedSpeaking
+//			&amp;&amp; global.lastUserStartedSpeaking &lt; global.lastUserStoppedSpeaking
+//			&amp;&amp; (currentTime - global.lastCharacterStoppedSpeaking) &gt;= (Global.kWaitBeforePrompt * 1000)) {
+//
+//			List&lt;Map&lt;String,Object&gt;&gt; answers = engine.answersForCharacter(global.domainName).findAll( { Map&lt;String,Object&gt; utterance -&gt;
+//				utterance.type == Global.kPrompt }).toList();
+//			if (!answers.isEmpty()) {
+//				Collections.shuffle(answers);
+//				send(leastRecent(answers, Global.kHistoryWindow));
+//			}
+//		}
+
+		return false;
+	}
+
+	public Behavior send(Map&lt;String,Object&gt; inUtterance) {
+		if (inUtterance != null) {
+			if (inUtterance.script) {
+				global.lastUtterance	= null;
+				return engine.schedule(inUtterance);
+			} else {
+				global.lastUtterance	= inUtterance;
+				Behavior	b	= engine.schedule(inUtterance);
+				b.setLock(Behavior.kDefaultLock);
+				return b;
+			}
+		}
+
+		return engine.schedule(inUtterance);
+	}
+
+	protected Behavior sendRegular(Map&lt;String,Object&gt; inUtterance) {
+		return send(inUtterance);
+	}
+
+	public Map&lt;String,Object&gt; utteranceWithID(String inUtterance) {
+		return (Map&lt;String,Object&gt;)engine.answers().find({Map&lt;String,Object&gt; utterance -&gt; utterance.ID == inUtterance});
+	}
+
+	protected Map&lt;String,Object&gt; leastRecent(List&lt;Map&lt;String,Object&gt;&gt; inAnswers, int inDepth) {
+		def selectedUtterance	= null;
+		def	depth				= -1;
+		for(a in inAnswers) {
+			def d	= engine.seenRecently(a, inDepth);
+			if (d &gt; depth) {
+				depth				= d;
+				selectedUtterance	= a;
+				if (depth &gt;= inDepth) break;
+			}
+		}
+		return selectedUtterance;
+	}
+
+	public boolean SetFacingCharacter(Event event) {
+		//engine.send("AddresseeSetFromPerception = "+Global.kFacingCharacter);
+		Global.kFacingCharacter = (String) event.get("facingCharacter");
+		engine.send("AddresseeSetFromPerception = "+Global.kFacingCharacter);
+		return false;
+	}
+
+	protected void onexit() { }
+	protected void onentry() { }
+
+}
+
+public class Regular extends State {
+
+	int offTopicCount	= 0;
+
+	Regular(Global inGlobal) {
+		super(inGlobal);
+	}
+
+	public boolean handle(Event event) {
+		if (event.event == Event.kLockEventType &amp;&amp; event?.id == Behavior.kDefaultLock) {
+			global.setMicrophoneEnabled(engine.executor.canAcquireLock(Behavior.kDefaultLock));
+			return false;
+		} else if (event.text) {
+			return vrSpeech_asr_complete(event);
+		} else {
+			return super.handle(event);
+		}
+	}
+
+	protected Behavior sendOfftopic() {
+		++offTopicCount;
+		return send(randomOfftopic());
+	}
+
+	protected Behavior sendRegular(Map&lt;String, Object&gt; inUtterance) {
+		offTopicCount	= 0;
+		return super.sendRegular(inUtterance);
+	}
+
+	private Map&lt;String,Object&gt; randomOfftopic(String inOfftopicType) {
+		List&lt;Map&lt;String,Object&gt;&gt; answers = engine.answersForCharacter(global.domainName).findAll( { Map&lt;String,Object&gt; utterance -&gt;
+			utterance.type == inOfftopicType }).toList();
+		if (answers.isEmpty())
+			answers = engine.answersForCharacter(global.domainName).findAll( { Map&lt;String,Object&gt; utterance -&gt;
+				utterance.type == Global.kOpaque || utterance.type == Global.kUnknown || utterance.type == Global.kConceal }).toList();
+		Collections.shuffle(answers);
+		return leastRecent(answers, Global.kHistoryWindow);
+	}
+
+	private Map&lt;String,Object&gt; randomOfftopic() {
+		String							offTopicType	= Global.kConceal;
+		if (offTopicCount == 1) 		offTopicType	= Global.kOpaque;
+		else if (offTopicCount == 2) 	offTopicType	= Global.kUnknown;
+		return randomOfftopic(offTopicType);
+	}
+	
+	
+	public boolean vrSpeech_partial(Event inEvent){
+	
+		super.vrSpeech_partial(inEvent);	
+		
+		
+		if (!global.isMicrophoneEnabled()) 
+		{
+			engine.executor.pause();
+			global.transitionTo(global.interrupted);
+		}
+		
+	
+		return false;
+	
+	
+	}
+
+	public boolean vrSpeech_asr_complete(Event event) {
+
+		if (!event.text || ((String)event.text).trim().length() == 0) return false;
+
+		if (global.domainName == null)
+			global.domainName	= (String)event.speaker;
+
+
+		String currentAddressee;						
+		
+		currentAddressee = global.addressee.findCurrentAddressee( event.text);
+
+		if ( ( currentAddressee != "") ) {
+			if (Global.kFacingCharacter == "none")
+			{
+				event.Addressee	= currentAddressee;
+				engine.send("Addressee = "+currentAddressee);
+			}
+			else 
+			{
+				event.Addressee	= Global.kFacingCharacter;
+				engine.send("AddresseeFromPerception = "+event.Addressee);
+			}		
+		}
+
+
+		try {
+			List&lt;Map&lt;String,Object&gt;&gt; 	answers				= engine.search(global.domainName, event);
+
+			if (answers.isEmpty()) {
+				sendOfftopic();
+			} else {
+				Map&lt;String,Object&gt;			selectedUtterance = (Map)answers[0];
+
+				if (selectedUtterance.type == Global.kAlternative) {
+					if (!global.lastSpeechEvent) {
+						sendOfftopic();
+					} else {
+						offTopicCount	= 0;
+						return vrSpeech_asr_complete(global.lastSpeechEvent);
+					}
+					return false;
+				}
+
+				if (selectedUtterance.type == Global.kRepeat) {
+					if (!global.lastUtterance) {
+						sendOfftopic();
+					} else {
+						sendRegular(global.lastUtterance);
+					}
+					return false;
+				}
+
+				global.lastSpeechEvent	= event;
+				sendRegular(leastRecent(answers,Global.kHistoryWindow));
+			}
+
+		} catch (Throwable t) {
+			t.printStackTrace();
+		}
+
+		return false;
+	}
+
+}
+
+
+class Interrupted extends State {
+	Interrupted(Global inGlobal) {
+		super(inGlobal);
+	}
+			
+
+	protected void onentry() {
+		
+		StopSpeakingAndRespondToNewQuestion();
+	}
+	
+
+
+	public boolean StopSpeakingAndRespondToNewQuestion() {
+
+		engine.executor.newExecutionState();	
+		global.transitionTo(global.regularState);
+		global.setMicrophoneEnabled(true);
+		
+		return false;
+	}
+	
+
+}
+
+
+
+global.reset();
+
+
+public class IdentifyAddressee {
+
+    Global global;
+    
+    String previousAddressee = "Brad";
+	
+	IdentifyAddressee(Global inGlobal) {
+		global	= inGlobal;
+	}
+
+    
+    public String findCurrentAddressee(String textOfHumanUtterance) {     
+
+        
+        String addresseeFromKeyword = findAddresseeFromKeyword(textOfHumanUtterance);
+        if (!addresseeFromKeyword.equals("")) {           
+        	previousAddressee = addresseeFromKeyword;
+            return addresseeFromKeyword;            
+        }
+        
+    }
+
+
+    
+    public String findAddresseeFromKeyword(String textOfHumanUtterance) {
+        
+        Hashtable bradKeyWord = new Hashtable();
+        bradKeyWord.put("brad", new Integer(1));        
+
+        
+        Hashtable rachelKeyWords = new Hashtable();
+        rachelKeyWords.put("rachel", new Integer(1));
+        rachelKeyWords.put("woman", new Integer(1));
+        rachelKeyWords.put("miss", new Integer(1));
+		rachelKeyWords.put("girl", new Integer(1));
+		rachelKeyWords.put("lady", new Integer(1));				
+		rachelKeyWords.put("madam", new Integer(1));
+
+        
+        String[] utteranceWords = textOfHumanUtterance.split(" ");
+
+        for (String word : utteranceWords) {
+            if (bradKeyWord.containsKey(word.toLowerCase())) {
+                return "Brad";
+            }
+            if (rachelKeyWords.containsKey(word.toLowerCase())) {				
+                return "Rachel";
+            }
+        }
+        return "";
+    }
+
+
+    
+    public boolean isOnScene(String character) {
+        
+        Set presentCharacters = global.getPresentCharacters();
+
+        if (presentCharacters.contains(character)) {
+            return true;
+        }
+
+        return false;
+    }
+
+
+}</string>
+</dict>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.dialog.script.ScriptableDialogManager</string>
+</dict>
+<key>loggingConversations</key>
+<false/>
+<key>speakers</key>
+<array>
+<dict>
+<key>lastName</key>
+<string>Campus</string>
+<key>parent</key>
+<integer>1</integer>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.model.Person</string>
+</dict>
+<dict>
+<key>contentRecencyLimit</key>
+<integer>4</integer>
+<key>firstName</key>
+<string></string>
+<key>lastName</key>
+<string>General</string>
+<key>offtopicInitiativeThreshold</key>
+<integer>2</integer>
+<key>randomChoiceRecencyLimit</key>
+<integer>10</integer>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.dialog.blackwell.BlackwellPerson</string>
+</dict>
+<dict>
+<key>lastName</key>
+<string>House</string>
+<key>parent</key>
+<integer>1</integer>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.model.Person</string>
+</dict>
+<dict>
+<key>firstName</key>
+<string>Toolkit</string>
+<key>lastName</key>
+<string>Example</string>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.model.Person</string>
+</dict>
+</array>
+<key>evaluationFrameworkProvider</key>
+<dict>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.model.EvaluationFrameworkProvider$MeanFScoreEvaluationFramework</string>
+</dict>
+<key>categories</key>
+<array>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<false/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<true/>
+<key>name</key>
+<string>Train/Test</string>
+<key>readOnly</key>
+<true/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Training</string>
+<key>ID</key>
+<string>train</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Development</string>
+<key>ID</key>
+<string>dev</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Test</string>
+<key>ID</key>
+<string>test</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>train_test</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<false/>
+<key>answerCategory</key>
+<false/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<false/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>Dialog State</string>
+<key>readOnly</key>
+<true/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>none</string>
+<key>description</key>
+<string>Do not change dialog state</string>
+<key>ID</key>
+<string>none</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>add</string>
+<key>description</key>
+<string>Add tokens for undefined categories to the state, do not change the existing categories</string>
+<key>ID</key>
+<string>add</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>set</string>
+<key>description</key>
+<string>Add tokens replacing existing category values</string>
+<key>ID</key>
+<string>set</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>reset</string>
+<key>description</key>
+<string>Clear dialog state and then set it to given tokens</string>
+<key>ID</key>
+<string>reset</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>dialogState</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<false/>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<false/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<true/>
+<key>name</key>
+<string>Tone</string>
+<key>readOnly</key>
+<false/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Down</string>
+<key>ID</key>
+<string>down</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Flat</string>
+<key>ID</key>
+<string>flat</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Up</string>
+<key>ID</key>
+<string>up</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>tone</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<false/>
+<key>answerCategory</key>
+<false/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<false/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<true/>
+<key>name</key>
+<string>Emotion</string>
+<key>readOnly</key>
+<true/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Neutral</string>
+<key>ID</key>
+<string>neutral</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Negative</string>
+<key>ID</key>
+<string>negative</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>emotion</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<false/>
+<key>answerCategory</key>
+<false/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<false/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>Toss</string>
+<key>readOnly</key>
+<true/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Campus</string>
+<key>description</key>
+<string></string>
+<key>ID</key>
+<string>Campus</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>General</string>
+<key>description</key>
+<string></string>
+<key>ID</key>
+<string>General</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>House</string>
+<key>description</key>
+<string></string>
+<key>ID</key>
+<string>House</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Toolkit Example</string>
+<key>description</key>
+<string></string>
+<key>ID</key>
+<string>Toolkit Example</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>toss</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<true/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>Type</string>
+<key>readOnly</key>
+<true/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>alternative</string>
+<key>description</key>
+<string>alternative</string>
+<key>ID</key>
+<string>alternative</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>brushoff</string>
+<key>description</key>
+<string>brushoff</string>
+<key>ID</key>
+<string>brushoff</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>conceal</string>
+<key>description</key>
+<string>conceal</string>
+<key>ID</key>
+<string>conceal</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>content</string>
+<key>description</key>
+<string>content</string>
+<key>ID</key>
+<string>content</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>delayed</string>
+<key>description</key>
+<string>delayed</string>
+<key>ID</key>
+<string>delayed</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>opaque</string>
+<key>description</key>
+<string>opaque</string>
+<key>ID</key>
+<string>opaque</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>prerepeat</string>
+<key>description</key>
+<string>pre repeat</string>
+<key>ID</key>
+<string>pre repeat</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>repeat</string>
+<key>description</key>
+<string>repeat</string>
+<key>ID</key>
+<string>repeat</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>toss</string>
+<key>description</key>
+<string>toss</string>
+<key>ID</key>
+<string>toss</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>unknown</string>
+<key>description</key>
+<string>unknown</string>
+<key>ID</key>
+<string>unknown</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>unrelated</string>
+<key>description</key>
+<string>unrelated</string>
+<key>ID</key>
+<string>unrelated</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>opening</string>
+<key>description</key>
+<string>opening</string>
+<key>ID</key>
+<string>opening</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>closing</string>
+<key>description</key>
+<string>closing</string>
+<key>ID</key>
+<string>closing</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>once</string>
+<key>description</key>
+<string>once</string>
+<key>ID</key>
+<string>once</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>type</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<true/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>Speaker</string>
+<key>readOnly</key>
+<false/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Brad</string>
+<key>description</key>
+<string>New Brad</string>
+<key>ID</key>
+<string>Brad</string>
+<key>colorAsInt</key>
+<integer>-2263458</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Rachel</string>
+<key>description</key>
+<string>Rachel</string>
+<key>ID</key>
+<string>Rachel</string>
+<key>colorAsInt</key>
+<integer>-16724788</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>speaker</string>
+<key>questionEditingAllowed</key>
+<false/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<true/>
+<key>classifierCategory</key>
+<true/>
+<key>answerColumnVisible</key>
+<true/>
+<key>questionColumnVisible</key>
+<false/>
+<key>questionCategory</key>
+<true/>
+<key>name</key>
+<string>Addressee</string>
+<key>readOnly</key>
+<false/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Rachel</string>
+<key>ID</key>
+<string>Rachel</string>
+<key>colorAsInt</key>
+<integer>-16724788</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>User</string>
+<key>ID</key>
+<string>User</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>addressee</string>
+<key>questionEditingAllowed</key>
+<true/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<true/>
+<key>questionColumnVisible</key>
+<true/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>Topic</string>
+<key>readOnly</key>
+<false/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Brad</string>
+<key>ID</key>
+<string>brad</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>General</string>
+<key>ID</key>
+<string>General</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Greeting</string>
+<key>ID</key>
+<string>2448f21b-08ea-4829-96bc-01c9ec0002fd</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>ICT</string>
+<key>ID</key>
+<string>ict</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Intro</string>
+<key>ID</key>
+<string>Intro</string>
+<key>colorAsInt</key>
+<integer>-16711681</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>MachinimaMaker</string>
+<key>ID</key>
+<string>268a6723-2c35-412c-883b-44ffac5ba332</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Module</string>
+<key>description</key>
+<string>Modules and Components</string>
+<key>ID</key>
+<string>Module</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>MultiSense</string>
+<key>ID</key>
+<string>aed5da39-0eff-4621-bd59-f230ad878fb2</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>NPCEditor</string>
+<key>ID</key>
+<string>npceditor</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>NVBG</string>
+<key>ID</key>
+<string>nvbg</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>People</string>
+<key>ID</key>
+<string>people</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Projects</string>
+<key>ID</key>
+<string>projects</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Rachel</string>
+<key>description</key>
+<string>About Rachel</string>
+<key>ID</key>
+<string>Rachel</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Renderer</string>
+<key>ID</key>
+<string>renderer</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Script</string>
+<key>description</key>
+<string>Scripts</string>
+<key>ID</key>
+<string>Script</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Smalltalk</string>
+<key>description</key>
+<string>Smalltalk and conersational lines</string>
+<key>ID</key>
+<string>Smalltalk</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>SmartBody</string>
+<key>ID</key>
+<string>smartbody</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Speech</string>
+<key>description</key>
+<string>ASR and TTS</string>
+<key>ID</key>
+<string>Speech</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Toolkit</string>
+<key>ID</key>
+<string>toolkit</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>USC</string>
+<key>ID</key>
+<string>usc</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>VHBuilder</string>
+<key>ID</key>
+<string>4bf8bb6c-f5e9-4f05-a824-6794865751ee</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Voice</string>
+<key>ID</key>
+<string>voice</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Watson</string>
+<key>ID</key>
+<string>watson</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>topic</string>
+<key>questionEditingAllowed</key>
+<true/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>answerColumnVisible</key>
+<true/>
+<key>description</key>
+<string>Prerecorded samples or TTS</string>
+<key>readOnly</key>
+<false/>
+<key>questionEditingAllowed</key>
+<true/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>questionColumnVisible</key>
+<true/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>Sound</string>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Prerecorded</string>
+<key>ID</key>
+<string>true</string>
+<key>colorAsInt</key>
+<integer>-16724788</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>TTS</string>
+<key>ID</key>
+<string>false</string>
+<key>colorAsInt</key>
+<integer>-6750157</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>sound</string>
+<key>answerCategory</key>
+<true/>
+</dict>
+<dict>
+<key>chatEditingAllowed</key>
+<false/>
+<key>classifierCategory</key>
+<false/>
+<key>answerColumnVisible</key>
+<true/>
+<key>questionColumnVisible</key>
+<true/>
+<key>questionCategory</key>
+<false/>
+<key>name</key>
+<string>To Do</string>
+<key>readOnly</key>
+<false/>
+<key>tokens</key>
+<array>
+<dict>
+<key>name</key>
+<string>Create</string>
+<key>ID</key>
+<string>2591594b-3ca9-4404-a96f-781a8d917052</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Fix; not working</string>
+<key>ID</key>
+<string>ce9690cf-fad9-4aa1-8d29-8c459ae9800f</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Re-record; line reading</string>
+<key>ID</key>
+<string>75707140-f2f2-4114-9c8e-6677c4a50f5a</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Re-record; match text</string>
+<key>ID</key>
+<string>f359466c-6155-4ecb-9aa5-49fb8511d67f</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Rewrite; outdated</string>
+<key>ID</key>
+<string>d10a4013-22ce-46f5-bc35-b0dfa16786a9</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Rewrite</string>
+<key>ID</key>
+<string>74338978-0b56-47fb-8910-51cd91c5e64c</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Review topic</string>
+<key>ID</key>
+<string>3839e177-083c-4570-a109-e469e2f9c8ed</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Redo lipsync</string>
+<key>ID</key>
+<string>d302fc65-7410-4223-9a5b-dff6b140c5be</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+<dict>
+<key>name</key>
+<string>Deprecated; replace</string>
+<key>ID</key>
+<string>30743a35-1da5-4dae-b9f8-ba280cbc3b46</string>
+<key>colorAsInt</key>
+<integer>0</integer>
+</dict>
+</array>
+<key>ID</key>
+<string>20d52971-3d32-47a6-850f-1c240612ea46</string>
+<key>questionEditingAllowed</key>
+<true/>
+<key>answerEditingAllowed</key>
+<true/>
+<key>answerCategory</key>
+<true/>
+</dict>
+</array>
+<key>classifierProvider</key>
+<dict>
+<key>class</key>
+<string>edu.usc.ict.npc.editor.model.classifier.cl.Provider</string>
+</dict>
+<key>map</key>
+<array>
+<dict>
+<key>qid</key>
+<integer>0</integer>
+<key>aid</key>
+<integer>0</integer>
+<key>value</key>
+<integer>6</integer>
+</dict>
+<dict>
+<key>qid</key>
+<integer>1</integer>
+<key>aid</key>
+<integer>2</integer>
+<key>value</key>
+<integer>6</integer>
+</dict>
+<dict>
+<key>qid</key>
+<integer>2</integer>
+<key>aid</key>
+<integer>4</integer>
+<key>value</key>
+<integer>6</integer>
+</dict>
+<dict>
+<key>qid</key>
+<integer>3</integer>
+<key>aid</key>
+<integer>1</integer>
+<key>value</key>
+<integer>6</integer>
+</dict>
+<dict>
+<key>qid</key>
+<integer>4</integer>
+<key>aid</key>
+<integer>5</integer>
+<key>value</key>
+<integer>6</integer>
+</dict>
+<dict>
+<key>qid</key>
+<integer>5</integer>
+<key>aid</key>
+<integer>3</integer>
+<key>value</key>
+<integer>6</integer>
+</dict>
+</array>
+</dict>
+</plist>

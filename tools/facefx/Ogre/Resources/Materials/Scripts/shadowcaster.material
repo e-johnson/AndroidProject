@@ -1,0 +1,25 @@
+material shadowCaster
+{
+    // Material Defaults.
+    //set $alpha_reject       "0.5"
+
+    technique
+    {
+        pass
+        {
+            vertex_program_ref shadow_caster_vs
+            {
+            }
+
+            fragment_program_ref shadow_caster_ps
+            {
+                //param_named iAlphaReject float $alpha_reject
+            }
+
+            texture_unit
+            {
+                texture Black.png
+            }
+        }
+    }
+}

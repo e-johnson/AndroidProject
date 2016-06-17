@@ -1,0 +1,13 @@
+DragNDropOverlay
+{
+    zorder 200
+
+    container Panel(DragNDropPanel)
+    {
+        metrics_mode pixels
+        width 400
+        height 400
+
+        material dragndrop_material
+    }
+}

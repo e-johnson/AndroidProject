@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bml>
+    <speech end="0.2" id="sp1" ready="0.1" relax="0.2" start="0.0" stroke="0.1">
+        <text>
+            <sync id="T0" time="0.000"/>please
+            <sync id="T1" time="0.100"/>
+            <sync id="T2" time="0.100"/>emmanuel
+            <sync id="T3" time="0.200"/>
+            <sync id="T4" time="0.200"/>call
+            <sync id="T5" time="0.300"/>
+            <sync id="T6" time="0.060"/>me
+            <sync id="T7" time="2.250"/>
+            <sync id="T8" time="2.250"/>ando
+            <sync id="T9" time="2.350"/>
+        </text>
+        <description level="1" type="audio/x-wav">
+            <file ref="please"/>
+        </description>
+    </speech>
+    <lips articulation="1.0" end="2.25" ready="0.12" relax="2.25" start="0.12" viseme="BMP"/>
+    <curves>
+        <curve name="Aa" num_keys="0.0" owner="analysis"/>
+        <curve name="Eh" num_keys="0.0" owner="analysis"/>
+        <curve name="BMP" num_keys="4.0" owner="analysis">0.12 0.0 0.0 0.0 0.33299999999999996 1.0 0.0 0.0 2.037 1.0 0.0 0.0 2.25 0.0 0.0 0.0</curve>
+        <curve name="D" num_keys="0.0" owner="analysis"/>
+        <curve name="F" num_keys="0.0" owner="analysis"/>
+        <curve name="Ah" num_keys="0.0" owner="analysis"/>
+        <curve name="Ow" num_keys="0.0" owner="analysis"/>
+        <curve name="Oy" num_keys="0.0" owner="analysis"/>
+        <curve name="L" num_keys="0.0" owner="analysis"/>
+        <curve name="Er" num_keys="0.0" owner="analysis"/>
+        <curve name="Ao" num_keys="0.0" owner="analysis"/>
+        <curve name="R" num_keys="0.0" owner="analysis"/>
+        <curve name="Th" num_keys="0.0" owner="analysis"/>
+        <curve name="Sh" num_keys="0.0" owner="analysis"/>
+        <curve name="W" num_keys="0.0" owner="analysis"/>
+        <curve name="Ay" num_keys="0.0" owner="analysis"/>
+        <curve name="Z" num_keys="0.0" owner="analysis"/>
+        <curve name="Kg" num_keys="0.0" owner="analysis"/>
+        <curve name="_" num_keys="0.0" owner="analysis"/>
+        <curve name="Ih" num_keys="0.0" owner="analysis"/>
+    </curves>
+</bml>

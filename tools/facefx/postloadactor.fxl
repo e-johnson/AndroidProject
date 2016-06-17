@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------------
+// This is the postloadactor.fxl file.  It resides in the same directory as 
+// FaceFX Studio.  Commands in this file will be executed after an actor 
+// is loaded in FaceFX Sturio.
+//
+// You can also create FXL files that are run whenever you open a 
+// specific FXA file.  Simply put the FXL file in the same directory as the
+// FXA file, and give it the same name.  Actor-specific FXL files are 
+// executed after the postloadactor.fxl file.
+// -----------------------------------------------------------------------------------
+//
+// Prints a message to the log
+print -message "postloadactor.fxl file executed";
+
+// Sets up the default environment so characters without FXL files
+// will use the defaults and characters with FXL files can override
+// the default values.
+exec -f "OnPostLoadActor.py"

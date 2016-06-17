@@ -1,0 +1,290 @@
+// adapted from http://www.ogre3d.org/forums/viewtopic.php?f=11&t=52354
+
+void shadow_caster_vs(
+    float4 iPosition            : POSITION,
+    float2 iUV                  : TEXCOORD0,
+
+    uniform float4x4 iWorldView,
+    uniform float4x4 iWorldViewProj,
+
+    out float4 oPosition        : POSITION,
+    out float2 oUV              : TEXCOORD0,
+    out float4 oDepth           : TEXCOORD1,
+    out float4 oDepthDir        : TEXCOORD2)
+
+{
+    oDepth = mul(iWorldView, iPosition);
+    oDepthDir = mul(iWorldViewProj, iPosition);
+
+    oPosition = oDepthDir;
+
+    oUV = iUV;
+}
+
+void shadow_caster_ps(
+    float2 iUV                  : TEXCOORD0,
+    float4 iDepth               : TEXCOORD1,
+    float4 iDepthDir            : TEXCOORD2,
+
+    uniform sampler2D dTex      : TEXUNIT0,
+
+    uniform float4 iDepthRange,
+    uniform float iAlphaReject,
+
+    out float4 oColour          : COLOR)
+
+{
+    //if(tex2D(dTex,iUV).a < iAlphaReject)
+    //    discard;   
+
+    float d = (length(iDepth.xyz) - iDepthRange.x) * iDepthRange.w;
+
+    oColour = float4(d, d * d, iDepthDir.z, iDepthDir.z*iDepthDir.z);
+}
+
+half getLightAttenuation(float distanceLight, float4 lightAtt)
+{
+    half att = distanceLight / lightAtt.r;
+    att *= att;
+    return 1.0 - att;
+}
+
+float getSpecularContribution(float lightSpec, float3 eyePos, float4 worldPos, 
+                float3 direction, float3 normal, float nDotL, float shininess)
+{
+    float3 viewVector = normalize(eyePos - worldPos.xyz);
+    float3 half = normalize(direction + viewVector);
+    float nDotH = dot(normal, half);
+    return lit(nDotL, nDotH, lightSpec * shininess).z;
+}
+
+float getSpotlightEffect(float3 ld0, float3 spotDir, float4 spotParams)
+{
+    float spot = dot(ld0, normalize(-spotDir));
+    spot = saturate((spot - spotParams.y) / (spotParams.x - spotParams.y));
+    return spot;
+}
+
+float4 btex2D_rg(sampler2D shadowMap, float2 uv, float offset)
+{   
+    float4 c = tex2D(shadowMap, uv.xy); // center
+    c += tex2D(shadowMap, uv.xy - offset); // top left
+    c += tex2D(shadowMap, uv.xy + offset); // bottom right
+    c += tex2D(shadowMap, float2(uv.x - offset, uv.y)); // left
+    c += tex2D(shadowMap, float2(uv.x + offset, uv.y)); // right
+    c += tex2D(shadowMap, float2(uv.x, uv.y + offset)); // bottom
+    c += tex2D(shadowMap, float2(uv.x, uv.y - offset)); // top
+    c += tex2D(shadowMap, float2(uv.x - offset, uv.y + offset)); // bottom left
+    c += tex2D(shadowMap, float2(uv.x + offset, uv.y - offset)); // top right
+    return c / 9;
+}
+
+void ambient_vs(
+    float4 iPosition            : POSITION,
+    float2 iUV                  : TEXCOORD0,
+
+    uniform float3 iAmbient,
+    uniform float4 iFogParams,
+    uniform float4x4 iWorldViewProj,
+
+    out float2 oUV              : TEXCOORD0,
+    out float3 oAmbient         : TEXCOORD1,
+    out float oFog              : TEXCOORD2,
+    out float4 oPosition        : POSITION)
+{
+    oPosition = mul(iWorldViewProj, iPosition);
+    oAmbient = iAmbient;
+    oUV = iUV;
+
+    oFog = 1;
+    if(iFogParams.x == 0)
+    {
+        if(iFogParams.w > 0)
+            oFog = smoothstep(iFogParams.y, iFogParams.z, iFogParams.z-oPosition.z);
+    }
+    else
+        oFog = exp2(-iFogParams.x*oPosition.z);
+}
+
+void ambient_ps (
+    float2 iUV                  : TEXCOORD0,
+    float3 iAmbient             : TEXCOORD1,
+    float iFog                  : TEXCOORD2,
+
+    uniform sampler2D dMap      : TEXUNIT0,
+    uniform float3 iFogColour,
+    uniform float2 iScale,
+    uniform float2 iScroll,
+
+    out float4 oColour          : COLOR)
+{
+    iUV.x = (iUV.x + iScroll.x)*iScale.x;
+    iUV.y = (iUV.y + iScroll.y)*iScale.y;
+
+    float3 diffuse = tex2D(dMap, iUV).rgb;
+    oColour = float4(iFog * iAmbient * diffuse + iFogColour * (1 - iFog), 1);
+}
+
+void diffuse_vs(
+    float4 iPosition            : POSITION,
+    float4 iNormal              : NORMAL,
+    float2 iUV                  : TEXCOORD0,
+
+    uniform float4x4 iWorld,
+    uniform float4x4 iWorldIT,
+    uniform float4x4 iWorldViewProj,
+    uniform float4 iFogParams,
+
+#if _SPOTLIGHT
+    uniform float4 iSpotDir,
+    out float3 oSpotDir         : TEXCOORD3,
+#endif
+
+#if _NORMAL
+    out float3 oTangent         : TEXCOORD4,
+    out float3 oBinormal        : TEXCOORD5,
+#endif
+
+#if _SHADOWS
+    uniform float4x4 iTextViewProj,
+    out float4 oShadowUV        : TEXCOORD6,
+#endif
+
+    out float2 oUV              : TEXCOORD0,
+    out float4 oWorldPos        : TEXCOORD1,
+    out float3 oNormal          : TEXCOORD2,
+    out float oFog              : TEXCOORD7,
+    out float4 oPosition        : POSITION )
+{
+    oWorldPos = mul(iWorld,iPosition);
+    oPosition = mul(iWorldViewProj,iPosition);
+    oNormal = normalize(mul(iWorldIT, iNormal).xyz);
+    oUV = iUV;
+
+#if _SPOTLIGHT
+    oSpotDir = mul(iWorld, iSpotDir).xyz;
+#endif
+
+#if _NORMAL
+    oTangent = normalize(-float3(abs(iNormal.y) + abs(iNormal.z), abs(iNormal.x), 0));
+    oBinormal = normalize(cross(oTangent,oNormal));
+#endif
+
+#if _SHADOWS
+    oShadowUV = mul(iTextViewProj, oWorldPos);
+    oShadowUV = oShadowUV / oShadowUV.w;
+#endif
+
+    oFog = 1;
+    if(iFogParams.x==0)
+    {
+        if(iFogParams.w>0)
+            oFog = smoothstep(iFogParams.y, iFogParams.z, iFogParams.z-oPosition.z);
+    }
+    else
+        oFog = exp2(-iFogParams.x*oPosition.z);
+}
+
+void diffuse_ps(
+    float2 iUV                  : TEXCOORD0,
+    float4 iWorldPos            : TEXCOORD1,
+    float3 iNormal              : TEXCOORD2,
+    float iFog                  : TEXCOORD7,
+
+    uniform float2 iScale,
+    uniform float2 iScroll,
+    uniform float3 iLightDif,
+    uniform float4 iLightPos,
+    uniform sampler2D dMap      : TEXUNIT0,
+
+#if _SPOTLIGHT
+    float3 iSpotDir             : TEXCOORD3,
+    uniform float4 iSpotParams,
+#endif
+
+#if !_DIRECTIONAL
+    uniform float4 iLightAtt,
+    #if _SHADOWS
+        uniform float4 iDepthRange,
+    #endif
+#endif
+
+#if _SPECULAR
+    uniform float4 iLightSpec,
+    uniform float3 iEyePos,
+    uniform float iShininess,
+    uniform sampler2D spMap     : TEXUNIT1,
+#endif
+
+#if _NORMAL
+    uniform sampler2D nMap      : TEXUNIT2,
+    float3 iTangent             : TEXCOORD4,
+    float3 iBinormal            : TEXCOORD5,
+#endif
+
+#if _SHADOWS
+    uniform float4 iInvShMapSize,
+    uniform sampler2D shMap     : TEXUNIT3,
+    float4 iShadowUV            : TEXCOORD6,
+#endif
+
+    out float4 oColour          : COLOR)
+{
+    if(iFog == 0)
+        discard;
+
+    float3 lightDir = iLightPos.xyz - (iLightPos.w * iWorldPos.xyz);
+    float distanceLight = length(lightDir);
+    lightDir = normalize(lightDir);
+
+    iUV.x = (iUV.x + iScroll.x)*iScale.x;
+    iUV.y = (iUV.y + iScroll.y)*iScale.y;
+
+#if _NORMAL
+    float3 normalTex = (tex2D(nMap,iUV).rgb - 0.5)*2;
+    iNormal = normalize(normalTex.x * iTangent - normalTex.y * iBinormal + normalTex.z * iNormal);
+#endif
+
+    float nDotL = max(dot(lightDir,iNormal),0);
+    float4 difTex = tex2D(dMap,iUV);
+    if(difTex.a<0.5f)
+        discard;
+
+    float3 light = iLightDif * nDotL * difTex.xyz;
+
+#if _SPECULAR
+    float4 specTex = tex2D(spMap,iUV);
+    light += getSpecularContribution(iLightSpec.w,iEyePos,iWorldPos,lightDir,iNormal,nDotL,iShininess) * specTex.xyz * iLightSpec.xyz;
+#endif
+
+#if !_DIRECTIONAL
+    half lightAtt = getLightAttenuation(distanceLight,iLightAtt);
+    light *= lightAtt;
+#endif
+
+#if _SPOTLIGHT
+    float spot = getSpotlightEffect(lightDir,iSpotDir,iSpotParams);
+    light *= spot;
+#endif
+
+#if _SHADOWS
+    #if !_DIRECTIONAL
+        float lD = (distanceLight - iDepthRange.x) * iDepthRange.w;
+        float2 moments = btex2D_rg(shMap,iShadowUV.xy,iInvShMapSize).rg;
+    #else
+        float lD = iShadowUV.z;
+        float2 moments = btex2D_rg(shMap,iShadowUV.xy,iInvShMapSize).ba;
+    #endif
+      
+    float p = lD<=moments.x ? 1 : 0;   
+    float variance = moments.y - (moments.x*moments.x);
+    variance = max(variance, 0.001);
+    float d = lD - moments.x;
+    float p_max = variance / (variance + d*d);
+    p_max = max(p,p_max);
+    light *= clamp((p_max - 0.6) / (1 - 0.6), 0, 1);
+#endif
+
+    light *= iFog;
+    oColour = float4(light, 1);
+}
